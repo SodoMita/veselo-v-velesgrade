@@ -133,3 +133,17 @@ Questions get answers. Greetings get a short reply, once. Thanks and goodbyes ge
 A statement gets a reflection only when her knowledge has something on its topic. Otherwise she
 stays quiet. She also goes quiet when one person floods the room, or right after she has
 replied. Each decision is logged with its reason.
+
+## Understanding questions (Link Grammar frames)
+
+`velesgrad_v2/dialogue/understand.py` reads a question's Link Grammar links and turns it into a
+frame (wh-word slot, verb, subject, object, predicate). It queries AtomSpace facts with that frame
+and realizes the matching fact with the existing realizer. Examples:
+
+- "who guards the city?"  → guard(?, city)
+- "what does the archive hold?" → hold(archive, ?)
+- "what is the veil?" → facts about veil
+- "is the relic valuable?" → "Yes, the relic is valuable." or no answer
+
+`MiraChat.respond` tries this first for questions. When no frame matches, the keyword lookup
+answers as before. Statements and commands are never handled here. Tests: `tests/test_understand.py`.

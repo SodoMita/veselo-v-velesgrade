@@ -498,6 +498,15 @@ class MiraChat:
                 self_answer = self._answer_self(low_q)
                 if self_answer:
                     return self_answer
+            # Understanding first: parse the question (Link Grammar) into a frame and
+            # answer from a matching AtomSpace fact. Falls back to keyword lookup below.
+            try:
+                from .dialogue.understand import understand as _understand
+                ua = _understand(self.aspace, resolved)
+            except Exception:
+                ua = None
+            if ua is not None:
+                return ua.text
             # Yes/no first: "is the relic valuable?" → confirm/deny with hedging
             if self._is_yes_no(resolved):
                 yn = self._answer_yes_no(resolved)
