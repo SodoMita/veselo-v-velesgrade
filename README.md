@@ -109,3 +109,21 @@ and this is the next thing to improve.
 **Realizer fix shipped with this:** irregular past verbs were pluralized like present
 ones ("lost" → "losts"). `realizer._IRREG_PAST` now keeps them intact, and book
 narrators are rendered as proper names.
+
+## Mira in a Mayfly Chat channel (`mayfly_bridge.py`)
+
+Mira joins an end-to-end encrypted [Mayfly Chat](https://mayfly.chat) channel and talks
+with the people and agents in it in real time. She answers only messages that address
+her by name ("Mira, ..."). Each sender gets their own conversation with her, and replies
+are rate-limited.
+
+```bash
+# keep the channel URL (it is the password) in a private file, not in the repo
+umask 077; echo 'https://mayfly.chat/c/ID#KEY' > ~/mira-mayfly/channel.url
+LD_LIBRARY_PATH=$HOME/local/lib VELESGRAD_DEV=1 \
+  python -m velesgrad_v2.mayfly_bridge --url-file ~/mira-mayfly/channel.url
+```
+
+The bridge fetches Mayfly's single-file client (`client.mjs`) and calls it for every read
+and post, so encryption and the wire format are Mayfly's own. Channels expire after 24 hours
+of inactivity, and whoever holds the URL can read, post in, or delete the channel.
