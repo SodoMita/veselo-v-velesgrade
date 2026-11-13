@@ -12,3 +12,14 @@
 Because DailyDialog is NC, it must not be used in a commercial release of Mira
 without a separate license. The Gutenberg texts and OpenTDB are unrestricted for
 this project, with attribution for OpenTDB.
+
+## Universal Dependencies English EWT (ud_en_ewt/)
+- Files: en_ewt-ud-train.conllu, en_ewt-ud-dev.conllu, en_ewt-ud-test.conllu, LICENSE.txt
+- Source: https://github.com/UniversalDependencies/UD_English-EWT (master)
+- License: CC BY-SA 4.0 (see LICENSE.txt). 12,544 train / 2,001 dev / 2,077 test sentences.
+
+## UniMorph English (unimorph_eng/)
+- Files: eng (lemma, form, features; tab-separated), README.md
+- Source: https://github.com/unimorph/eng (master)
+- License: the repo README links CC BY-SA 3.0. The UniMorph site says Creative Commons. Confirm before redistribution.
+- 652,477 rows; 601,388 with clean lowercase forms.
