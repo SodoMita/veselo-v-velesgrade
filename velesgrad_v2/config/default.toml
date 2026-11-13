@@ -1,0 +1,30 @@
+# Velesgrad v2 – All magic numbers live here with rationale
+
+[ecan]
+rent_per_atom = 0.01
+focus_wage = 0.05
+sti_floor = -400.0
+sti_ceiling = 400.0
+spread_fraction = 0.15
+focus_capacity = 20
+forget_lti_rate = 0.5
+min_lti = -50.0
+
+[pln]
+truth_k = 800.0
+deduction_confidence = "min_count"
+inference_threshold = 0.1
+
+[psi]
+epsilon = 0.1
+
+[magic]
+cast_base_success = 0.3
+veil_recover_rate = 0.01
+drain_divisor = 50.0
+
+[engine]
+npc_act_chance = 0.45
+bell_act_chance = 0.30
+converse_chance = 0.6
+ecan_interval = 5

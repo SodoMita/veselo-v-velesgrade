@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+velesgrad_save.json
+save.json
+/data/link-grammar/
+/data/raw/
+*.gguf

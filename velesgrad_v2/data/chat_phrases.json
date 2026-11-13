@@ -1,0 +1,285 @@
+{
+ "provenance": {
+  "corpus": "NPS Chat (nps_chat)",
+  "lg_parse_rate_sample": 0.69,
+  "frame_mining": "eligible"
+ },
+ "phrases": {
+  "greetings": [
+   {
+    "text": "hi",
+    "count": 37
+   },
+   {
+    "text": "hey",
+    "count": 25
+   },
+   {
+    "text": "hi all",
+    "count": 19
+   },
+   {
+    "text": "hello",
+    "count": 19
+   },
+   {
+    "text": "hi 10-19-40suser30",
+    "count": 10
+   },
+   {
+    "text": "hi room",
+    "count": 8
+   },
+   {
+    "text": "hi everyone",
+    "count": 8
+   },
+   {
+    "text": "hi 10-19-40suser43",
+    "count": 7
+   },
+   {
+    "text": "hi 10-19-40suser53",
+    "count": 7
+   },
+   {
+    "text": "hi 11-09-40suser34",
+    "count": 7
+   },
+   {
+    "text": "hey everyone",
+    "count": 6
+   },
+   {
+    "text": "hi 10-19-40suser34",
+    "count": 6
+   },
+   {
+    "text": "hi 10-24-40suser45",
+    "count": 6
+   },
+   {
+    "text": "hi 10-24-40suser46",
+    "count": 6
+   },
+   {
+    "text": "hi 11-08-40suser24",
+    "count": 6
+   },
+   {
+    "text": "hi 11-08-40suser7",
+    "count": 6
+   },
+   {
+    "text": "hi 11-09-40suser33",
+    "count": 6
+   },
+   {
+    "text": "hello room",
+    "count": 5
+   },
+   {
+    "text": "hi 10-19-40suser54",
+    "count": 5
+   },
+   {
+    "text": "hi 10-24-40suser19",
+    "count": 5
+   }
+  ],
+  "farewells": [
+   {
+    "text": "brb",
+    "count": 20
+   },
+   {
+    "text": "bye",
+    "count": 6
+   },
+   {
+    "text": "bye 10-24-40suser26",
+    "count": 4
+   },
+   {
+    "text": "afk",
+    "count": 3
+   },
+   {
+    "text": "good night all",
+    "count": 2
+   },
+   {
+    "text": "nite 10-19-30suser7",
+    "count": 2
+   },
+   {
+    "text": "bye 10-24-40suser11",
+    "count": 2
+   },
+   {
+    "text": "tc 10-24-40suser26",
+    "count": 2
+   },
+   {
+    "text": "night 11-06-adultsuser53",
+    "count": 2
+   },
+   {
+    "text": "bye 11-06-adultsuser1",
+    "count": 2
+   },
+   {
+    "text": "tc 11-06-adultsuser1",
+    "count": 2
+   },
+   {
+    "text": "buh bye",
+    "count": 2
+   },
+   {
+    "text": "cya later guys",
+    "count": 1
+   },
+   {
+    "text": "bye 10-19-20suser20",
+    "count": 1
+   },
+   {
+    "text": "bye 10-19-20suser148",
+    "count": 1
+   },
+   {
+    "text": "bbl maybe",
+    "count": 1
+   },
+   {
+    "text": "nite 10-19-30suser15",
+    "count": 1
+   },
+   {
+    "text": "bye 10-19-30suser15",
+    "count": 1
+   },
+   {
+    "text": "see u all laterssss",
+    "count": 1
+   },
+   {
+    "text": "byeeee",
+    "count": 1
+   }
+  ],
+  "backchannels": [
+   {
+    "text": "lol",
+    "count": 316
+   },
+   {
+    "text": "lmao",
+    "count": 40
+   },
+   {
+    "text": "haha",
+    "count": 30
+   },
+   {
+    "text": ":)",
+    "count": 23
+   },
+   {
+    "text": "omg",
+    "count": 12
+   },
+   {
+    "text": ";-)",
+    "count": 12
+   },
+   {
+    "text": ":-)",
+    "count": 10
+   },
+   {
+    "text": "damn",
+    "count": 10
+   },
+   {
+    "text": ":p",
+    "count": 9
+   },
+   {
+    "text": "hahaha",
+    "count": 9
+   },
+   {
+    "text": "lol 10-19-40suser9",
+    "count": 6
+   },
+   {
+    "text": ":-o",
+    "count": 5
+   },
+   {
+    "text": "hehe",
+    "count": 5
+   },
+   {
+    "text": ":tongue:",
+    "count": 5
+   },
+   {
+    "text": "lol 10-19-40suser3",
+    "count": 5
+   }
+  ],
+  "dont_know": [
+   {
+    "text": "not sure",
+    "count": 1
+   },
+   {
+    "text": "dont know much about it though",
+    "count": 1
+   },
+   {
+    "text": "i have no idea what you're talking about",
+    "count": 1
+   },
+   {
+    "text": "lol you don't know me do you?",
+    "count": 1
+   },
+   {
+    "text": "dont know",
+    "count": 1
+   },
+   {
+    "text": "in 1996? hmmm dont know",
+    "count": 1
+   },
+   {
+    "text": ".no idea.",
+    "count": 1
+   },
+   {
+    "text": "and u dont know kennedy",
+    "count": 1
+   },
+   {
+    "text": "u just dont know",
+    "count": 1
+   },
+   {
+    "text": "i dont know you 11-09-20suser31",
+    "count": 1
+   },
+   {
+    "text": "dont know any 11-09-40suser7.. tyvm",
+    "count": 1
+   },
+   {
+    "text": "dont know how it works..but it does",
+    "count": 1
+   }
+  ]
+ }
+}
