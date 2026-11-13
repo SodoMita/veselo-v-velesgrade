@@ -32,6 +32,7 @@ from dataclasses import dataclass
 
 from .lg_ctypes import parse_sentence, get_dictionary, is_available
 from .ingest import _bare, _is_verb_word, _lemma
+from .morph import analyze
 
 COPULAS = {"is", "are", "was", "were", "be", "am"}
 AUX = {"do", "does", "did"}
@@ -48,19 +49,19 @@ _IRREG = {"stole": "steal", "stolen": "steal", "held": "hold", "holds": "hold",
           "were": "be", "is": "be", "are": "be", "lay": "lie", "lies": "lie", "lain": "lie"}
 
 
-def stem(word: str) -> str:
-    """Light stemmer used on both query and stored names."""
+def stem(word: str, lexicon=None) -> str:
+    """Root of a word. With a lexicon, use morph.analyze (only roots that exist count);
+    without one, keep the word as it is."""
     w = word.lower().replace("_", " ").strip()
-    if w in _IRREG:
-        return _IRREG[w]
-    for suf in ("ing", "ed", "es", "s", "e"):
-        if w.endswith(suf) and len(w) - len(suf) >= 3:
-            return w[: -len(suf)]
-    return w
+    if lexicon is not None:
+        found = analyze(w, lexicon)
+        if found:
+            return found[0][0]
+    return _IRREG.get(w, w)
 
 
-def canon(name: str) -> str:
-    return " ".join(stem(w) for w in name.replace("_", " ").split() if w)
+def canon(name: str, lexicon=None) -> str:
+    return " ".join(stem(w, lexicon) for w in name.replace("_", " ").split() if w)
 
 
 @dataclass
@@ -92,7 +93,7 @@ def _wh_of(bare_word: str) -> str | None:
     return None
 
 
-def build_frame(text: str, dictionary=None) -> Frame | None:
+def build_frame(text: str, dictionary=None, lexicon=None) -> Frame | None:
     d = dictionary or get_dictionary()
     parsed = parse_sentence(text, d)
     if not parsed:
@@ -184,7 +185,7 @@ def build_frame(text: str, dictionary=None) -> Frame | None:
         subject, obj = obj, None                    # the copula's object is the topic
 
     return Frame(kind="wh" if wh else "yn", wh=wh, wh_slot=wh_slot,
-                 verb=None if copula else canon(bare[main]),
+                 verb=None if copula else canon(bare[main], lexicon),
                  copula=copula,
                  subject=noun_phrase(subject) if subject is not None else None,
                  obj=noun_phrase(obj) if obj is not None else None,
@@ -214,57 +215,67 @@ def _score(link):
     return (tv.mean or 0.0) * (tv.confidence or 0.0) if tv else 0.0
 
 
-def _match(name, want):
-    return want is not None and canon(name) == canon(want)
+def _match(name, want, lex=None):
+    return want is not None and canon(name, lex) == canon(want, lex)
 
 
-def _pred_match(pred, verb):
-    return verb is not None and canon(pred) == canon(verb)
+def _pred_match(pred, verb, lex=None):
+    return verb is not None and canon(pred, lex) == canon(verb, lex)
 
 
-def _locative(pred):
-    p = canon(pred)
+def _locative(pred, lex=None):
+    p = canon(pred, lex)
     return any(h in p for h in LOCATIVE_PREDS)
 
 
-def _candidates(aspace, frame: Frame):
+def _candidates(aspace, frame: Frame, lex=None):
     """Facts that answer the frame, best first."""
     subj, obj, verb = frame.subject, frame.obj, frame.verb
     hits = []
     for link, kind, a, pred, b in _triples(aspace):
         if frame.wh and frame.wh_slot == "subject" and not frame.copula:
             # who VERB OBJ  →  VERB(?, OBJ)
-            if kind == "eval" and _pred_match(pred, verb) and _match(b, obj):
+            if kind == "eval" and _pred_match(pred, verb, lex) and _match(b, obj, lex):
                 hits.append(link)
         elif frame.wh_slot == "object" and subj is not None:
             # what does SUBJ VERB  →  VERB(SUBJ, ?)
-            if kind == "eval" and _pred_match(pred, verb) and _match(a, subj):
+            if kind == "eval" and _pred_match(pred, verb, lex) and _match(a, subj, lex):
                 hits.append(link)
         elif frame.wh_slot == "place":
-            if _match(a, subj) and kind == "eval" and _locative(pred):
+            if _match(a, subj, lex) and kind == "eval" and _locative(pred, lex):
                 hits.append(link)
         elif frame.copula and frame.wh and subj is not None:
             # what/who is SUBJ  →  everything we know about SUBJ
-            if _match(a, subj):
+            if _match(a, subj, lex):
                 hits.append(link)
     hits.sort(key=_score, reverse=True)
     return hits
 
 
-def _yes_no(aspace, frame: Frame):
+def _yes_no(aspace, frame: Frame, lex=None):
     subj, obj, adj, verb = frame.subject, frame.obj, frame.adj, frame.verb
     want_b = adj or obj
     if subj is None or (want_b is None and verb is None):
         return None
     for link, kind, a, pred, b in _triples(aspace):
-        if not _match(a, subj):
+        if not _match(a, subj, lex):
             continue
         if verb is not None and not frame.copula:
-            if kind == "eval" and _pred_match(pred, verb) and (obj is None or _match(b, obj)):
+            if kind == "eval" and _pred_match(pred, verb, lex) and (obj is None or _match(b, obj, lex)):
                 return link
-        elif kind == "inh" and want_b and _match(b, want_b):
+        elif kind == "inh" and want_b and _match(b, want_b, lex):
             return link
     return None
+
+
+def _lexicon(aspace) -> set:
+    """Single-word names in the AtomSpace: the words Mira knows, lower-cased."""
+    words = set()
+    for _link, _kind, a, pred, b in _triples(aspace):
+        for name in (a, pred, b):
+            if name:
+                words.update(w.lower() for w in name.replace("_", " ").split())
+    return words
 
 
 def understand(aspace, text: str, dictionary=None) -> Answer | None:
@@ -273,13 +284,14 @@ def understand(aspace, text: str, dictionary=None) -> Answer | None:
         return None
     if not text.strip().endswith("?"):
         return None         # statements and commands are not handled here
-    frame = build_frame(text, dictionary)
+    lex = _lexicon(aspace)
+    frame = build_frame(text, dictionary, lex)
     if frame is None:
         return None
     from .realizer import atom_to_text
 
     if frame.kind == "yn":
-        link = _yes_no(aspace, frame)
+        link = _yes_no(aspace, frame, lex)
         if link is None:
             return None     # no matching fact: let the keyword path answer
         sentence = atom_to_text(link) or ""
@@ -288,7 +300,7 @@ def understand(aspace, text: str, dictionary=None) -> Answer | None:
         body = sentence.rstrip(".!?") 
         return Answer("Yes, " + body[0].lower() + body[1:] + ".", link, frame)
 
-    hits = _candidates(aspace, frame)
+    hits = _candidates(aspace, frame, lex)
     if not hits:
         return None
     best = hits[0]
