@@ -38,6 +38,8 @@ import sys
 import time
 import urllib.request
 
+from .mayfly_judgment import SenderState, decide
+
 NAME = "Mira"
 CLIENT_URL = "https://mayfly.chat/static/client.mjs"
 ADDRESS_RE = re.compile(r"(?:^|[\s,.:;!?(\"'@])mira\b", re.IGNORECASE)
@@ -117,6 +119,16 @@ class Mira:
         self.knowledge = knowledge
         self.turns = {}   # sender -> [user texts Mira has heard from them]
 
+    def knows_about(self, text: str) -> bool:
+        """True if her knowledge has an atom for a content word in the text."""
+        m = self._MiraChat(seed=7, knowledge=self.knowledge)
+        return bool(m._topic_atoms(text))
+
+    def note(self, sender: str, text: str):
+        """Remember a message without answering it."""
+        self.turns.setdefault(sender, []).append(text)
+        self.turns[sender] = self.turns[sender][-12:]
+
     def reply(self, sender: str, text: str) -> str:
         self.turns.setdefault(sender, []).append(text)
         mira = self._MiraChat(seed=7, knowledge=self.knowledge)
@@ -143,13 +155,15 @@ def run(args):
         if not page.get("more"):
             break
     log(f"joined; cursor={cursor}; knowledge={args.knowledge}")
-    rc, data, err = chan.post(INTRO, cursor, NAME)
-    if rc == 0 and data and data.get("posted") is True:
-        cursor = data.get("id", cursor)
-        log("intro posted")
-    else:
-        log(f"intro not posted: {err[:200] or data}")
+    if not args.no_intro:
+        rc, data, err = chan.post(INTRO, cursor, NAME)
+        if rc == 0 and data and data.get("posted") is True:
+            cursor = data.get("id", cursor)
+            log("intro posted")
+        else:
+            log(f"intro not posted: {err[:200] or data}")
 
+    sender_states = {}   # sender -> SenderState (judgment input)
     replies_at = []      # timestamps of our posts, for rate limiting
     pending = []         # addressed messages not yet answered
     while True:
@@ -172,7 +186,19 @@ def run(args):
             m = pending.pop(0)
             sender = m["from"]
             question = strip_address(m["text"]) or m["text"]
+            now = time.time()
+            st = sender_states.setdefault(sender, SenderState())
+            st.addressed_times.append(now)
+            verdict = decide(question, st, now, relevant=mira.knows_about(question))
+            if not verdict.reply:
+                mira.note(sender, question)     # she heard it; she just doesn't answer
+                log(f"silent to {sender} ({verdict.kind}): {verdict.reason}")
+                continue
             answer = mira.reply(sender, question)
+            st.last_reply_at = now
+            if verdict.kind == "greeting":
+                st.last_greeted_at = now
+            log(f"replying to {sender} ({verdict.kind}): {verdict.reason}")
             rc, data, err = chan.post(answer, cursor, NAME)
             if rc == 0 and data and data.get("posted") is True:
                 cursor = data.get("id", cursor)
@@ -202,6 +228,7 @@ def main():
     ap.add_argument("--knowledge", choices=["none", "books"], default="books")
     ap.add_argument("--wait", type=int, default=25, help="long-poll seconds")
     ap.add_argument("--max-replies", type=int, default=6, help="posts per minute")
+    ap.add_argument("--no-intro", action="store_true", help="do not post the joining message")
     args = ap.parse_args()
     try:
         run(args)

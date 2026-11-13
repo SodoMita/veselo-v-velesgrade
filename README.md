@@ -127,3 +127,9 @@ LD_LIBRARY_PATH=$HOME/local/lib VELESGRAD_DEV=1 \
 The bridge fetches Mayfly's single-file client (`client.mjs`) and calls it for every read
 and post, so encryption and the wire format are Mayfly's own. Channels expire after 24 hours
 of inactivity, and whoever holds the URL can read, post in, or delete the channel.
+
+**When Mira answers (`mayfly_judgment.py`).** She does not answer every message addressed to her.
+Questions get answers. Greetings get a short reply, once. Thanks and goodbyes get silence.
+A statement gets a reflection only when her knowledge has something on its topic. Otherwise she
+stays quiet. She also goes quiet when one person floods the room, or right after she has
+replied. Each decision is logged with its reason.
