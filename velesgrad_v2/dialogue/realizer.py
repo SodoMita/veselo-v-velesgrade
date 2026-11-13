@@ -71,6 +71,8 @@ _ARTICLES = {
 
 _PROPER = {
     "mira", "yuri", "hound", "zorya", "boris", "kostya", "vasilisa", "player",
+    # narrators of the Gutenberg books (dialogue/book_knowledge.py)
+    "pepys", "montaigne", "thoreau", "aurelius",
 }
 
 
@@ -274,6 +276,17 @@ _PREPS = {"in", "at", "on", "of", "from", "with", "near", "under",
           "over", "into", "inside", "outside", "above", "below"}
 
 
+# Irregular simple-past forms. Without this set, _conjugate would add "s"
+# ("lost" → "losts"). Common verbs only; regular pasts end in "-ed".
+_IRREG_PAST = set("""went came saw took gave made said told found knew thought
+felt kept left lost had got sat stood wrote ate drank spoke held brought bought
+caught taught met led fell fought sent spent built sold heard understood meant ran
+began drew grew threw flew rode hid won laid paid shook sought stole struck swore
+wore woke wept dug fed fled hung lit slept swept bent bled bound bred cast clung
+crept dealt forgot forgave froze knelt lent quit rang rose sang sank slid spun
+split spread sprang stuck stung strode swung tore wound became forgave""".split())
+
+
 def _conjugate(verb_phrase: str, subject_name: str) -> str:
     """Agree a verb phrase with its subject, inflecting unknown verbs.
 
@@ -296,8 +309,8 @@ def _conjugate(verb_phrase: str, subject_name: str) -> str:
             head = {"is": "is", "are": "is", "has": "has", "have": "has",
                     "does": "does", "do": "does", "was": "was",
                     "were": "was"}[head]
-        elif head.endswith("ed"):
-            pass  # past tense ('happened') — no 3sg inflection
+        elif head.endswith("ed") or head in _IRREG_PAST:
+            pass  # past tense ('happened', 'lost') — no 3sg inflection
         elif head.endswith(("sh", "ch", "x", "o")):
             head = head + "es"
         elif head.endswith("s"):

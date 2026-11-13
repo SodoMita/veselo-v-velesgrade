@@ -1,0 +1,5746 @@
+[
+ {
+  "kind": "eval",
+  "a": "hadrian",
+  "b": "character",
+  "rel": "divined",
+  "source": "Meditations",
+  "sentence": "The Emperor Hadrian divined the fine character of the lad, whom he used to call not Verus but Verissimus, more Truthful than his own name."
+ },
+ {
+  "kind": "eval",
+  "a": "emperor",
+  "b": "triumph",
+  "rel": "celebrated",
+  "source": "Meditations",
+  "sentence": "At his return the emperor celebrated a triumph (176)."
+ },
+ {
+  "kind": "eval",
+  "a": "life",
+  "b": "amending",
+  "rel": "needed",
+  "source": "Meditations",
+  "sentence": "Rusticus did not work in vain, if he showed his pupil that his life needed amending."
+ },
+ {
+  "kind": "eval",
+  "a": "aurelius",
+  "b": "meekness",
+  "rel": "observed",
+  "source": "Meditations",
+  "sentence": "In my father, I observed his meekness; his constancy without wavering in those things, which after a due examination and deliberation, he had determined."
+ },
+ {
+  "kind": "eval",
+  "a": "aurelius",
+  "b": "flower",
+  "rel": "preserved",
+  "source": "Meditations",
+  "sentence": "That I was not long brought up by the concubine of my father; that I preserved the flower of my youth."
+ },
+ {
+  "kind": "eval",
+  "a": "aurelius",
+  "b": "fits",
+  "rel": "fell into",
+  "source": "Meditations",
+  "sentence": "That I never had to do with Benedicta and Theodotus, yea and afterwards when I fell into some fits of love, I was soon cured."
+ },
+ {
+  "kind": "eval",
+  "a": "sedition",
+  "b": "soul",
+  "rel": "withdraw",
+  "source": "Meditations",
+  "sentence": "He raises sedition in the city, who by irrational actions withdraws his own soul from that one and common soul of all rational creatures."
+ },
+ {
+  "kind": "eval",
+  "a": "scaling",
+  "b": "soldier",
+  "rel": "unto",
+  "source": "Meditations",
+  "sentence": "For whatsoever it be that lieth upon thee to effect, thou must propose it unto thyself, as the scaling of walls is unto a soldier."
+ },
+ {
+  "kind": "eval",
+  "a": "arts",
+  "b": "nature",
+  "rel": "imitate",
+  "source": "Meditations",
+  "sentence": "It is not possible that any nature should be inferior unto art, since that all arts imitate nature."
+ },
+ {
+  "kind": "eval",
+  "a": "aurelius",
+  "b": "man",
+  "rel": "used",
+  "source": "Meditations",
+  "sentence": "Then I used to call you a hard man, no good company, even disagreeable, sometimes, when anger got the better of me."
+ },
+ {
+  "kind": "eval",
+  "a": "anger",
+  "b": "better",
+  "rel": "got",
+  "source": "Meditations",
+  "sentence": "Then I used to call you a hard man, no good company, even disagreeable, sometimes, when anger got the better of me."
+ },
+ {
+  "kind": "eval",
+  "a": "aurelius",
+  "b": "hold",
+  "rel": "got",
+  "source": "Meditations",
+  "sentence": "He knows my weakness; he was afraid that if I got hold of them I might, as usual, make smoke of them."
+ },
+ {
+  "kind": "eval",
+  "a": "heart",
+  "b": "books",
+  "rel": "with",
+  "source": "Meditations",
+  "sentence": "He goes to the theatre or the law-courts, or takes part in court ceremony, but his heart is always with his books."
+ },
+ {
+  "kind": "eval",
+  "a": "to-day",
+  "b": "food",
+  "rel": "studied",
+  "source": "Meditations",
+  "sentence": "To-day I studied from the ninth hour of the night to the second hour of day, after taking food."
+ },
+ {
+  "kind": "eval",
+  "a": "aurelius",
+  "b": "books",
+  "rel": "have",
+  "source": "Meditations",
+  "sentence": "No use to send: I have those books with me too."
+ },
+ {
+  "kind": "eval",
+  "a": "aurelius",
+  "b": "gossip",
+  "rel": "had",
+  "source": "Meditations",
+  "sentence": "Then I had a long gossip with my dear mother sitting on the bed."
+ },
+ {
+  "kind": "eval",
+  "a": "letter",
+  "b": "particulars",
+  "rel": "give",
+  "source": "Meditations",
+  "sentence": "One letter of the later period gives some interesting particulars of the emperor's public life, which are worth quoting."
+ },
+ {
+  "kind": "eval",
+  "a": "empperor",
+  "b": "friend",
+  "rel": "write to",
+  "source": "Meditations",
+  "sentence": "Thus the empperor writes to his old friend, who had shown some diffidence in seeking an interview: Ad Verum."
+ },
+ {
+  "kind": "eval",
+  "a": "son",
+  "b": "father",
+  "rel": "survived",
+  "source": "Meditations",
+  "sentence": "They were delicate in health, in spite of Fronto's assurance, and only one son survived the father."
+ },
+ {
+  "kind": "eval",
+  "a": "wife",
+  "b": "germany",
+  "rel": "lost in",
+  "source": "Meditations",
+  "sentence": "Then I was visited by pitiful misfortunes: my wife I have lost, my grandson I have lost in Germany: woe is me!"
+ },
+ {
+  "kind": "eval",
+  "a": "work",
+  "b": "discourses",
+  "rel": "called from",
+  "source": "Meditations",
+  "sentence": "The work called Encheiridion was compiled by a pupil from his discourses."
+ },
+ {
+  "kind": "eval",
+  "a": "aurelius",
+  "b": "war",
+  "rel": "carried",
+  "source": "Meditations",
+  "sentence": "Aurelius carried on war against them, and part of this book was written in the field."
+ },
+ {
+  "kind": "eval",
+  "a": "men",
+  "b": "mistake",
+  "rel": "labor under",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "But men labor under a mistake."
+ },
+ {
+  "kind": "eval",
+  "a": "men",
+  "b": "lives",
+  "rel": "lead",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "The mass of men lead lives of quiet desperation."
+ },
+ {
+  "kind": "eval",
+  "a": "demon",
+  "b": "thoreau",
+  "rel": "possessed",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "What demon possessed me that I behaved so well?"
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "acquaintances",
+  "rel": "try",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I sometimes try my acquaintances by such tests as this; - who could wear a patch, or two extra seams only, over the knee?"
+ },
+ {
+  "kind": "eval",
+  "a": "man",
+  "b": "home",
+  "rel": "wanted",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "Man wanted a home, a place of warmth, or comfort, first of physical warmth, then the warmth of the affections."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "jesting",
+  "rel": "from",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I am far from jesting."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "men",
+  "rel": "doubt",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I doubt if there are three such men in Concord."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "doubt",
+  "rel": "have",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "Yet I have no doubt that that people's rulers are as wise as the average of civilized rulers."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "road",
+  "rel": "passed on",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "At six I passed him and his family on the road."
+ },
+ {
+  "kind": "eval",
+  "a": "thrush",
+  "b": "thoreau",
+  "rel": "gave",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "One early thrush gave me a note or two as I drove along the woodland path."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "path",
+  "rel": "drove along",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "One early thrush gave me a note or two as I drove along the woodland path."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "pleasure",
+  "rel": "took",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I took particular pleasure in this breaking of ground, for in almost all latitudes men dig into the earth for an equable temperature."
+ },
+ {
+  "kind": "eval",
+  "a": "men",
+  "b": "earth",
+  "rel": "dig into",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I took particular pleasure in this breaking of ground, for in almost all latitudes men dig into the earth for an equable temperature."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "plough",
+  "rel": "held",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I was obliged to hire a team and a man for the ploughing, though I held the plough myself."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "latin",
+  "rel": "give",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I give the Latin on account of the savoriness of the trivial name."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "recipe",
+  "rel": "made to",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "It would seem that I made it according to the recipe which Marcus Porcius Cato gave about two centuries before Christ."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "value",
+  "rel": "enhanced",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "But as it was, I considered that I enhanced the value of the land by squatting on it."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "dwelling",
+  "rel": "preferred",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "But for my part, I preferred the solitary dwelling."
+ },
+ {
+  "kind": "eval",
+  "a": "society",
+  "b": "tenth",
+  "rel": "recover",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "Society recovers only a tenth part of the property then."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "flower",
+  "rel": "want",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I want the flower and fruit of a man; that some fragrance be wafted over from him to me, and some ripeness flavor our intercourse."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "enormity",
+  "rel": "dreamed of",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I never dreamed of any enormity greater than I have committed."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "price",
+  "rel": "knew",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "In imagination I have bought all the farms in succession, for all were to be bought, and I knew their price."
+ },
+ {
+  "kind": "eval",
+  "a": "experience",
+  "b": "thoreau",
+  "rel": "entitled",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "This experience entitled me to be regarded as a sort of real-estate broker by my friends."
+ },
+ {
+  "kind": "eval",
+  "a": "landscape",
+  "b": "thoreau",
+  "rel": "radiated from",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "Wherever I sat, there I might live, and the landscape radiated from me accordingly."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "landscape",
+  "rel": "retained",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "But I retained the landscape, and I have since annually carried off what it yielded without a wheelbarrow."
+ },
+ {
+  "kind": "eval",
+  "a": "seeds",
+  "b": "age",
+  "rel": "improve with",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "Many think that seeds improve with age."
+ },
+ {
+  "kind": "eval",
+  "a": "men",
+  "b": "account",
+  "rel": "give",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "Why is it that men give so poor an account of their day if they have not been slumbering?"
+ },
+ {
+  "kind": "eval",
+  "a": "men",
+  "b": "truth",
+  "rel": "esteem",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "Men esteem truth remote, in the outskirts of the system, behind the farthest star, before Adam and after the last man."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "faculties",
+  "rel": "feel",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I feel all my best faculties concentrated in it."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "beans",
+  "rel": "hoed",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I did not read books the first summer; I hoed beans."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "margin",
+  "rel": "love",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I love a broad margin to my life."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "seasons",
+  "rel": "grew",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I grew in those seasons like corn in the night, and they were far better than any work of the hands would have been."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "fortune",
+  "rel": "smiled at",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "Instead of singing like the birds, I silently smiled at my incessant good fortune."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "passage",
+  "rel": "watch",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I watch the passage of the morning cars with the same feeling that I do the rising of the sun, which is hardly more regular."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "opportunity",
+  "rel": "had",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I had a rare opportunity to become acquainted with their habits."
+ },
+ {
+  "kind": "eval",
+  "a": "man",
+  "b": "bird",
+  "rel": "added",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "No wonder that man added this bird to his tame stock, - to say nothing of the eggs and drumsticks."
+ },
+ {
+  "kind": "eval",
+  "a": "sound",
+  "b": "thoreau",
+  "rel": "roused",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "Even the sailor on the Atlantic and Pacific is awakened by his voice; but its shrill sound never roused me from my slumbers."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "friendship",
+  "rel": "enjoy",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "While I enjoy the friendship of the seasons I trust that nothing can make life a burden to me."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "companion",
+  "rel": "found",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I never found the companion that was so companionable as solitude."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "company",
+  "rel": "have",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I have a great deal of company in my house; especially in the morning, when nobody calls."
+ },
+ {
+  "kind": "eval",
+  "a": "company",
+  "b": "lake",
+  "rel": "has",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "What company has that lonely lake, I pray?"
+ },
+ {
+  "kind": "eval",
+  "a": "business",
+  "b": "thoreau",
+  "rel": "called",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I am naturally no hermit, but might possibly sit out the sturdiest frequenter of the bar-room, if my business called me thither."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "chairs",
+  "rel": "had",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I had three chairs in my house; one for solitude, two for friendship, three for society."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "life",
+  "rel": "lived in",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I had more visitors while I lived in the woods than at any other period in my life; I mean that I had some."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "improvement",
+  "rel": "suggested",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "If I suggested any improvement in his mode of life, he merely answered, without expressing any regret, that it was too late."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "pond",
+  "rel": "drank at",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I told them that I drank at the pond, and pointed thither, offering to lend them a dipper."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "business",
+  "rel": "went about",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "Men who did not know when their visit had terminated, though I went about my business again, answering them from greater and greater remoteness."
+ },
+ {
+  "kind": "eval",
+  "a": "men",
+  "b": "thoreau",
+  "rel": "called on",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "Men of almost every degree of wit called on me in the migrating season."
+ },
+ {
+  "kind": "eval",
+  "a": "man",
+  "b": "risks",
+  "rel": "sit as",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "A man sits as many risks as he runs."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "visitors",
+  "rel": "had",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I had more cheering visitors than the last."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "eye",
+  "rel": "have",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I cherish them, I hoe them, early and late I have an eye to them; and this is my day's work."
+ },
+ {
+  "kind": "eval",
+  "a": "scenes",
+  "b": "memory",
+  "rel": "stamped on",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "It is one of the oldest scenes stamped on my memory."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "faith",
+  "rel": "had",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "It was a cheap sort of top dressing in which I had entire faith."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "bushels",
+  "rel": "harvested",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I harvested twelve bushels of beans."
+ },
+ {
+  "kind": "eval",
+  "a": "fields",
+  "b": "barns",
+  "rel": "fill",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "It matters little comparatively whether the fields fill the farmer's barns."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "fishes",
+  "rel": "caught",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "Thus I caught two fishes as it were with one hook."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "boat",
+  "rel": "pushed",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "Sometimes, when I pushed off my boat in the morning, I disturbed a great mud-turtle which had secreted himself under the boat in the night."
+ },
+ {
+  "kind": "eval",
+  "a": "trees",
+  "b": "room",
+  "rel": "have",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "The trees have ample room to expand on the water side, and each sends forth its most vigorous branch in that direction."
+ },
+ {
+  "kind": "eval",
+  "a": "eye",
+  "b": "gradations",
+  "rel": "rise by",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "There Nature has woven a natural selvage, and the eye rises by just gradations from the low shrubs of the shore to the highest trees."
+ },
+ {
+  "kind": "eval",
+  "a": "water",
+  "b": "shore",
+  "rel": "lave",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "The water laves the shore as it did a thousand years ago."
+ },
+ {
+  "kind": "eval",
+  "a": "field",
+  "b": "spirit",
+  "rel": "betray",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "A field of water betrays the spirit that is in the air."
+ },
+ {
+  "kind": "eval",
+  "a": "nature",
+  "b": "inhabitant",
+  "rel": "has",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "Nature has no human inhabitant who appreciates her."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "afternoon",
+  "rel": "set",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I set out one afternoon to go a-fishing to Fair-Haven, through the woods, to eke out my scanty fare of vegetables."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "departure",
+  "rel": "took",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "The shower was now over, and a rainbow above the eastern woods promised a fair evening; so I took my departure."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "woods",
+  "rel": "went to",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I speak of fishing only now, for I had long felt differently about fowling, and sold my gun before I went to the woods."
+ },
+ {
+  "kind": "eval",
+  "a": "hare",
+  "b": "child",
+  "rel": "crie like",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "The hare in its extremity cries like a child."
+ },
+ {
+  "kind": "eval",
+  "a": "man",
+  "b": "stage",
+  "rel": "passe through",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "Thus, even in civilized communities, the embryo man passes through the hunter stage of development."
+ },
+ {
+  "kind": "eval",
+  "a": "man",
+  "b": "genius",
+  "rel": "followed",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "No man ever followed his genius till it misled him."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "sky",
+  "rel": "prefer",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I am glad to have drunk water so long, for the same reason that I prefer the natural sky to an opium-eater's heaven."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "man",
+  "rel": "knew",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "If I knew so wise a man as could teach me purity I would go to seek him forthwith."
+ },
+ {
+  "kind": "eval",
+  "a": "farmer",
+  "b": "door",
+  "rel": "sat at",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "John Farmer sat at his door one September evening, after a hard day's work, his mind still running on his labor more or less."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "water",
+  "rel": "have",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I have water from the spring, and a loaf of brown bread on the shelf. - Hark!"
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "rustling",
+  "rel": "hear",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I hear a rustling of the leaves."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "to-day",
+  "rel": "have",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I thought, as I have my living to get, and have not eaten to-day, that I might go a-fishing."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "peep",
+  "rel": "heard",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "Or I heard the peep of the young when I could not see the parent bird."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "glass",
+  "rel": "raised",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I raised the glass, and he went off over the window-sill in that crippled state."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "half",
+  "rel": "laid",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "When chestnuts were ripe I laid up half a bushel for winter."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "masonry",
+  "rel": "studied",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "When I came to build my chimney I studied masonry."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "poet",
+  "rel": "took",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I took a poet to board for a fortnight about those times, which caused me to be put to it for room."
+ },
+ {
+  "kind": "eval",
+  "a": "house",
+  "b": "eye",
+  "rel": "pleased",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "My house never pleased my eye so much after it was plastered, though I was obliged to confess that it was more comfortable."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "story",
+  "rel": "remembered",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I remembered the story of a conceited fellow, who, in fine clothes, was wont to lounge about the village once, giving advice to workmen."
+ },
+ {
+  "kind": "eval",
+  "a": "man",
+  "b": "his",
+  "rel": "look at",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "Every man looks at his wood-pile with a kind of affection."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "fire",
+  "rel": "kindled",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "But commonly I kindled my fire with the dry leaves of the forest, which I had stored up in my shed before the snow came."
+ },
+ {
+  "kind": "eval",
+  "a": "laborer",
+  "b": "thoughts",
+  "rel": "purifie",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "The laborer, looking into it at evening, purifies his thoughts of the dross and earthiness which they have accumulated during the day."
+ },
+ {
+  "kind": "eval",
+  "a": "weeks",
+  "b": "village",
+  "rel": "came to",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "For many weeks I met no one in my walks but those who came occasionally to cut wood and sled it to the village."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "colors",
+  "rel": "mark",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I mark its still tender, civil, cheerful, lilac colors."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "visitor",
+  "rel": "had",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "At this season I seldom had a visitor."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "following",
+  "rel": "find",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "In the \"Wast Book\" of an old trader of this town, who was also a captain, town-clerk, and representative, I find the following entry."
+ },
+ {
+  "kind": "eval",
+  "a": "man",
+  "b": "right",
+  "rel": "has",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "Such a man has some right to fish, and I love to see Nature carried out in him."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "pond",
+  "rel": "strolled around",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "When I strolled around the pond in misty weather I was sometimes amused by the primitive mode which some ruder fisherman had adopted."
+ },
+ {
+  "kind": "eval",
+  "a": "walden",
+  "b": "water",
+  "rel": "mingled with",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "The pure Walden water is mingled with the sacred water of the Ganges."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "middle",
+  "rel": "went across",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "One year I went across the middle only five days before it disappeared entirely."
+ },
+ {
+  "kind": "eval",
+  "a": "cut",
+  "b": "thoreau",
+  "rel": "impressed",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "The whole cut impressed me as if it were a cave with its stalactites laid open to the light."
+ },
+ {
+  "kind": "eval",
+  "a": "sight",
+  "b": "thoreau",
+  "rel": "reminded",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "This sight reminded me of falconry and what nobleness and poetry are associated with that sport."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "mess",
+  "rel": "got",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "Beside this I got a rare mess of golden and silver and bright cupreous fishes, which looked like a string of jewels."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "september",
+  "rel": "left",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I finally left Walden September 6th, 1847."
+ },
+ {
+  "kind": "eval",
+  "a": "side",
+  "b": "home",
+  "rel": "butmisc-ex",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "The other side of the globe is but the home of our correspondent."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "woods",
+  "rel": "left",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I left the woods for as good a reason as I went there."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "lives",
+  "rel": "had",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "Perhaps it seemed to me that I had several more lives to live, and could not spare any more time for that one."
+ },
+ {
+  "kind": "eval",
+  "a": "poor",
+  "b": "thoreau",
+  "rel": "seem to",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "The town's poor seem to me often to live the most independent lives of any."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "angle",
+  "rel": "live in",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I live in the angle of a leaden wall, into whose composition was poured a little alloy of bell metal."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "furring",
+  "rel": "feel for",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "Give me a hammer, and let me feel for the furring."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "king",
+  "rel": "called",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I called on the king, but he made me wait in his hall, and conducted like a man incapacitated for hospitality."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "hall",
+  "rel": "wait in",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I called on the king, but he made me wait in his hall, and conducted like a man incapacitated for hospitality."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "conversations",
+  "rel": "live in",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "The government of the world I live in was not framed, like that of Britain, in after-dinner conversations over the wine."
+ },
+ {
+  "kind": "eval",
+  "a": "life",
+  "b": "water",
+  "rel": "like",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "The life in us is like the water in the river."
+ },
+ {
+  "kind": "eval",
+  "a": "corporation",
+  "b": "conscience",
+  "rel": "has",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "It is truly enough said that a corporation has no conscience; but a corporation of conscientious men is a corporation with a conscience."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "vote",
+  "rel": "cast",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I cast my vote, perchance, as I think right; but I am not vitally concerned that that right should prevail."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "wrong",
+  "rel": "have to",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "What I have to do is to see, at any rate, that I do not lend myself to the wrong which I condemn."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "affairs",
+  "rel": "have",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I have other affairs to attend to."
+ },
+ {
+  "kind": "eval",
+  "a": "man",
+  "b": "majority",
+  "rel": "constitute",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "Moreover, any man more right than his neighbors constitutes a majority of one already."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "blood",
+  "rel": "see",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I see this blood flowing now."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "protection",
+  "rel": "rely on",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "For my own part, I should not like to think that I ever rely on the protection of the State."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "state",
+  "rel": "saw",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I saw yet more distinctly the State in which I lived."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "government",
+  "rel": "live under",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "It is not many moments that I live under a government, even in this world."
+ },
+ {
+  "kind": "eval",
+  "a": "thoreau",
+  "b": "his",
+  "rel": "know of",
+  "source": "Walden, and On The Duty Of Civil Disobedience",
+  "sentence": "I know of those whose serene and wise speculations on this theme would soon reveal the limits of his mind's range and hospitality."
+ },
+ {
+  "kind": "eval",
+  "a": "soul",
+  "b": "passions",
+  "rel": "discharge",
+  "source": "Essays",
+  "sentence": "That the soul discharges her passions upon false objects, where the true are wanting."
+ },
+ {
+  "kind": "eval",
+  "a": "book",
+  "b": "bordeaux",
+  "rel": "appeared at",
+  "source": "Essays",
+  "sentence": "Those thoughts became a book, and the first part of that book, which was to confer immortality on the writer, appeared at Bordeaux in 1580."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "care",
+  "rel": "took",
+  "source": "Essays",
+  "sentence": "In the towns where he stayed, Montaigne took care to see the Protestant divines, to make himself conversant with all their dogmas."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "confidence",
+  "rel": "enjoyed",
+  "source": "Essays",
+  "sentence": "His political life is almost a blank; but De Thou assures us that Montaigne enjoyed the confidence of the principal persons of his time."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "side",
+  "rel": "left",
+  "source": "Essays",
+  "sentence": "On the contrary, after that I never left his side."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "thirty-three",
+  "rel": "upon",
+  "source": "Essays",
+  "sentence": "I am just upon thirty-three."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "payment",
+  "rel": "offer in",
+  "source": "Essays",
+  "sentence": "But, Monsieur, in default of better coin, I offer you in payment the assurance of my desire to do you humble service."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "god",
+  "rel": "pray",
+  "source": "Essays",
+  "sentence": "Monsieur, I pray God to have you in His keeping."
+ },
+ {
+  "kind": "eval",
+  "a": "consideration",
+  "b": "montaigne",
+  "rel": "consoled",
+  "source": "Essays",
+  "sentence": "This consideration, Monseigneur, often consoled me, when I beheld M."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "news",
+  "rel": "have",
+  "source": "Essays",
+  "sentence": "GENTLEMEN,--I have here received news of you from M. le Marechal."
+ },
+ {
+  "kind": "eval",
+  "a": "boasts",
+  "b": "friends",
+  "rel": "love as",
+  "source": "Essays",
+  "sentence": "A great conqueror of past times boasts that he gave his enemies as great an inducement to love him, as his friends."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "exertion",
+  "rel": "used",
+  "source": "Essays",
+  "sentence": "I used every exertion to discover the man of whom you spoke."
+ },
+ {
+  "kind": "eval",
+  "a": "war",
+  "b": "privileges",
+  "rel": "has",
+  "source": "Essays",
+  "sentence": "And, doubtless, war has naturally many privileges that appear reasonable even to the prejudice of reason."
+ },
+ {
+  "kind": "eval",
+  "a": "father-in-law",
+  "b": "opinion",
+  "rel": "removed",
+  "source": "Essays",
+  "sentence": "Scipio, the father-in-law of Pompey, in dying, well removed the ill opinion that till then every one had conceived of him."
+ },
+ {
+  "kind": "eval",
+  "a": "emperor",
+  "b": "scratch",
+  "rel": "killed with",
+  "source": "Essays",
+  "sentence": "Another was choked with a grape-stone;-- --an emperor killed with the scratch of a comb in combing his head."
+ },
+ {
+  "kind": "eval",
+  "a": "passion",
+  "b": "voice",
+  "rel": "gave",
+  "source": "Essays",
+  "sentence": "Passion gave to the son of Croesus the voice which nature had denied him."
+ },
+ {
+  "kind": "eval",
+  "a": "how",
+  "b": "death",
+  "rel": "has",
+  "source": "Essays",
+  "sentence": "How many more have died before they arrived at thy age How many several ways has death to surprise us?"
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "subject",
+  "rel": "return to",
+  "source": "Essays",
+  "sentence": "But I return to my subject."
+ },
+ {
+  "kind": "eval",
+  "a": "man",
+  "b": "need",
+  "rel": "had",
+  "source": "Essays",
+  "sentence": "And, in plain truth, a man had need of a good strong back to keep pace with these people."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "authority",
+  "rel": "have",
+  "source": "Essays",
+  "sentence": "I have no authority to be believed, neither do I desire it, being too conscious of my own inerudition to be able to instruct others."
+ },
+ {
+  "kind": "eval",
+  "a": "man",
+  "b": "revenue",
+  "rel": "divulge",
+  "source": "Essays",
+  "sentence": "No man divulges his revenue; or, at least, which way it comes in but every one publishes his acquisitions."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "mind",
+  "rel": "had",
+  "source": "Essays",
+  "sentence": "CHAPTER XXVII OF FRIENDSHIP Having considered the proceedings of a painter that serves me, I had a mind to imitate his way."
+ },
+ {
+  "kind": "eval",
+  "a": "diogenes",
+  "b": "money",
+  "rel": "wanted",
+  "source": "Essays",
+  "sentence": "When the philosopher Diogenes wanted money, he used to say, that he redemanded it of his friends, not that he demanded it."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "natures",
+  "rel": "love",
+  "source": "Essays",
+  "sentence": "I love temperate and moderate natures."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "valer",
+  "rel": "has",
+  "source": "Essays",
+  "sentence": "But, however, Montaigne has Valer."
+ },
+ {
+  "kind": "eval",
+  "a": "charondas",
+  "b": "men",
+  "rel": "punished",
+  "source": "Essays",
+  "sentence": "Charondas punished those as evil men who were convicted of keeping ill company."
+ },
+ {
+  "kind": "eval",
+  "a": "maximus",
+  "b": "son",
+  "rel": "buried",
+  "source": "Essays",
+  "sentence": "Maximus buried his son when he was a consul, and M."
+ },
+ {
+  "kind": "eval",
+  "a": "name",
+  "b": "people",
+  "rel": "affright",
+  "source": "Essays",
+  "sentence": "I know some who consentingly have acquired both profit and advancement from cuckoldom, of which the bare name only affrights so many people."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "conditions",
+  "rel": "have",
+  "source": "Essays",
+  "sentence": "I have since my emergence from childhood lived in three sorts of conditions."
+ },
+ {
+  "kind": "eval",
+  "a": "invention",
+  "b": "manners",
+  "rel": "reclaimed",
+  "source": "Essays",
+  "sentence": "Zeleucus by the like invention reclaimed the corrupted manners of the Locrians."
+ },
+ {
+  "kind": "eval",
+  "a": "consideration",
+  "b": "montaigne",
+  "rel": "lead",
+  "source": "Essays",
+  "sentence": "But this consideration leads me, perforce, into another subject."
+ },
+ {
+  "kind": "eval",
+  "a": "romans",
+  "b": "habit",
+  "rel": "wore",
+  "source": "Essays",
+  "sentence": "The Romans wore the same habit at funerals and feasts."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "soul",
+  "rel": "turn to",
+  "source": "Essays",
+  "sentence": "I give to my soul sometimes one face and sometimes another, according to the side I turn her to."
+ },
+ {
+  "kind": "eval",
+  "a": "drunkenness",
+  "b": "montaigne",
+  "rel": "seem to",
+  "source": "Essays",
+  "sentence": "Now, amongst the rest, drunkenness seems to me to be a gross and brutish vice."
+ },
+ {
+  "kind": "eval",
+  "a": "cruelty",
+  "b": "montaigne",
+  "rel": "does",
+  "source": "Essays",
+  "sentence": "My constancy torments thee more than thy cruelty does me."
+ },
+ {
+  "kind": "eval",
+  "a": "life",
+  "b": "own",
+  "rel": "depend upon",
+  "source": "Essays",
+  "sentence": "Life depends upon the pleasure of others; death upon our own."
+ },
+ {
+  "kind": "eval",
+  "a": "men",
+  "b": "death",
+  "rel": "covet",
+  "source": "Essays",
+  "sentence": "But men sometimes covet death out of hope of a greater good."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "story",
+  "rel": "had",
+  "source": "Essays",
+  "sentence": "I know not where I had this story, but it exactly matches the conscience of our justice in this particular."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "remedy",
+  "rel": "think",
+  "source": "Essays",
+  "sentence": "I think the remedy worse than the disease."
+ },
+ {
+  "kind": "eval",
+  "a": "virtue",
+  "b": "itself",
+  "rel": "assist",
+  "source": "Essays",
+  "sentence": "No virtue assists itself with falsehood; truth is never matter of error."
+ },
+ {
+  "kind": "eval",
+  "a": "scipio",
+  "b": "soldiers",
+  "rel": "ordered",
+  "source": "Essays",
+  "sentence": "The younger Scipio, reforming his army in Spain, ordered his soldiers to eat standing, and nothing that was drest."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "officer",
+  "rel": "have",
+  "source": "Essays",
+  "sentence": "I have no other officer to put my writings in rank and file, but only fortune."
+ },
+ {
+  "kind": "eval",
+  "a": "gods",
+  "b": "montaigne",
+  "rel": "grant",
+  "source": "Essays",
+  "sentence": "Aristippus, to one that was lamenting this death: \"The gods grant me such an one,\" said he."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "vices",
+  "rel": "follow",
+  "source": "Essays",
+  "sentence": "I follow some vices, but I fly others as much as a saint would do."
+ },
+ {
+  "kind": "eval",
+  "a": "body",
+  "b": "soul",
+  "rel": "stupifie",
+  "source": "Essays",
+  "sentence": "The corruptible body stupifies the soul, and the earthly habitation dulls the faculties of the imagination.\" Presumption is our natural and original disease."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "cat",
+  "rel": "play with",
+  "source": "Essays",
+  "sentence": "When I play with my cat who knows whether I do not make her more sport than she makes me?"
+ },
+ {
+  "kind": "eval",
+  "a": "dog",
+  "b": "player",
+  "rel": "served",
+  "source": "Essays",
+  "sentence": "This dog served a player, that played a farce of several parts and personages, and had therein his part."
+ },
+ {
+  "kind": "eval",
+  "a": "rome",
+  "b": "montaigne",
+  "rel": "seem to",
+  "source": "Essays",
+  "sentence": "Old Rome seems to me to have been of much greater value, both for peace and war, than that learned Rome that ruined itself."
+ },
+ {
+  "kind": "eval",
+  "a": "gods",
+  "b": "health",
+  "rel": "have",
+  "source": "Essays",
+  "sentence": "The gods have health in essence, says philosophy, and sickness in intelligence."
+ },
+ {
+  "kind": "eval",
+  "a": "man",
+  "b": "goods",
+  "rel": "possesse",
+  "source": "Essays",
+  "sentence": "Man, on the contrary, possesses his goods by fancy, his ills in essence."
+ },
+ {
+  "kind": "eval",
+  "a": "soul",
+  "b": "advance",
+  "rel": "has",
+  "source": "Essays",
+  "sentence": "A soul clear from prejudice has a marvellous advance towards tranquillity and repose."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "emblem",
+  "rel": "bear with",
+  "source": "Essays",
+  "sentence": "This fancy will be more certainly understood by interrogation: \"What do I know?\" as I bear it with the emblem of a balance."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "senses",
+  "rel": "contradict",
+  "source": "Essays",
+  "sentence": "He that could make me contradict the senses, would have me by the throat; he could not make me go further back."
+ },
+ {
+  "kind": "eval",
+  "a": "fimbria",
+  "b": "servant",
+  "rel": "entreated",
+  "source": "Essays",
+  "sentence": "Fimbria, having struck himself too weakly, entreated his servant to despatch him."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "distinction",
+  "rel": "had",
+  "source": "Essays",
+  "sentence": "And besides, though I had a particular distinction by myself, what can it distinguish, when I am no more?"
+ },
+ {
+  "kind": "eval",
+  "a": "body",
+  "b": "share",
+  "rel": "has",
+  "source": "Essays",
+  "sentence": "The body has a great share in our being, has an eminent place there, and therefore its structure and composition are of very just consideration."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "names",
+  "rel": "know",
+  "source": "Essays",
+  "sentence": "I know, in general, the names of the arts, and of what they treat, but nothing more."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "books",
+  "rel": "turn over",
+  "source": "Essays",
+  "sentence": "I turn over books; I do not study them."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "apprehension",
+  "rel": "have",
+  "source": "Essays",
+  "sentence": "I have a slow and perplexed apprehension, but what it once apprehends, it apprehends well, for the time it retains it."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "business",
+  "rel": "have",
+  "source": "Essays",
+  "sentence": "I have no other business but myself, I am eternally meditating upon myself, considering and tasting myself."
+ },
+ {
+  "kind": "eval",
+  "a": "laws",
+  "b": "course",
+  "rel": "steered",
+  "source": "Essays",
+  "sentence": "Their laws of duty steered some other course than ours."
+ },
+ {
+  "kind": "eval",
+  "a": "joy",
+  "b": "severity",
+  "rel": "has",
+  "source": "Essays",
+  "sentence": "The most profound joy has more of severity than gaiety, in it."
+ },
+ {
+  "kind": "eval",
+  "a": "metrodorus",
+  "b": "sorrow",
+  "rel": "said in",
+  "source": "Essays",
+  "sentence": "Metrodorus said, that in sorrow there is some mixture of pleasure."
+ },
+ {
+  "kind": "eval",
+  "a": "death",
+  "b": "montaigne",
+  "rel": "appear to",
+  "source": "Essays",
+  "sentence": "All that exceeds a simple death appears to me absolute cruelty."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "example",
+  "rel": "remember",
+  "source": "Essays",
+  "sentence": "In proof of which, I remember a marvellous example of antiquity."
+ },
+ {
+  "kind": "eval",
+  "a": "anger",
+  "b": "arms",
+  "rel": "serve for",
+  "source": "Essays",
+  "sentence": "Aristotle says, that anger sometimes serves for arms to virtue and valour."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "names",
+  "rel": "see",
+  "source": "Essays",
+  "sentence": "I often see the names of captains obscured by the splendour of other names of less desert; witness Labienus, Ventidius, Telesinus, and several others."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "caesar",
+  "rel": "return to",
+  "source": "Essays",
+  "sentence": "But I return to Caesar."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "mind",
+  "rel": "have",
+  "source": "Essays",
+  "sentence": "I have a mind to represent the progress of my humours, and that every one may see each piece as it came from the forge."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "appearances",
+  "rel": "have",
+  "source": "Essays",
+  "sentence": "But I have some other appearances that make me strangely suspect all this merchandise."
+ },
+ {
+  "kind": "eval",
+  "a": "lycurgus",
+  "b": "wine",
+  "rel": "ordered",
+  "source": "Essays",
+  "sentence": "Lycurgus ordered wine for the sick Spartans."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "qualities",
+  "rel": "desire",
+  "source": "Essays",
+  "sentence": "I desire you should continue the favour of your friendship to me, by the same qualities by which it was acquired."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "account",
+  "rel": "make",
+  "source": "Essays",
+  "sentence": "I make no account of the goods I could not employ in the service of my life."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "paper",
+  "rel": "speak",
+  "source": "Essays",
+  "sentence": "I speak on paper, as I do to the first person I meet; and that this is true, observe what follows."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "pleasure",
+  "rel": "take",
+  "source": "Essays",
+  "sentence": "I take a pleasure in being uninterested in other men's affairs, and disengaged from being their warranty, and responsible for what they do."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "repentance",
+  "rel": "abominate",
+  "source": "Essays",
+  "sentence": "As to the rest, I abominate that incidental repentance which old age brings along with it."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "reformations",
+  "rel": "repudiate",
+  "source": "Essays",
+  "sentence": "I repudiate, then, these casual and painful reformations."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "books",
+  "rel": "travel without",
+  "source": "Essays",
+  "sentence": "I never travel without books, either in peace or war; and yet sometimes I pass over several days, and sometimes months, without looking on them."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "hand",
+  "rel": "have",
+  "source": "Essays",
+  "sentence": "And indeed I have found by experience that I have an unlucky hand in persuading."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "manner",
+  "rel": "have",
+  "source": "Essays",
+  "sentence": "Revenge is a sweet passion, of great and natural impression; I discern it well enough, though I have no manner of experience of it."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "trust",
+  "rel": "evade",
+  "source": "Essays",
+  "sentence": "It is so great a pain to me to dissemble, that I evade the trust of another's secrets, wanting the courage to disavow my knowledge."
+ },
+ {
+  "kind": "eval",
+  "a": "poet",
+  "b": "marriage",
+  "rel": "represent",
+  "source": "Essays",
+  "sentence": "Our poet represents a marriage happy in a good accord wherein nevertheless there is not much loyalty."
+ },
+ {
+  "kind": "eval",
+  "a": "man",
+  "b": "statue",
+  "rel": "butmisc-ex",
+  "source": "Essays",
+  "sentence": "Livia was wont to say, that to a virtuous woman a naked man was but a statue."
+ },
+ {
+  "kind": "eval",
+  "a": "impression",
+  "b": "heart",
+  "rel": "made",
+  "source": "Essays",
+  "sentence": "Would you know what impression your service and merit have made in her heart?"
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "arguments",
+  "rel": "undertake",
+  "source": "Essays",
+  "sentence": "Wherefore, in writing, I more unwillingly undertake beaten arguments, lest I should handle them at another's expense."
+ },
+ {
+  "kind": "eval",
+  "a": "whoever",
+  "b": "montaigne",
+  "rel": "interrupt",
+  "source": "Essays",
+  "sentence": "My speaking is a little nicely jealous of silence and attention: if I am talking my best, whoever interrupts me, stops me."
+ },
+ {
+  "kind": "eval",
+  "a": "love",
+  "b": "montaigne",
+  "rel": "please",
+  "source": "Essays",
+  "sentence": "The more respectful, more timorous, more coy, and secret love of the Spaniards and Italians pleases me."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "picture",
+  "rel": "owe",
+  "source": "Essays",
+  "sentence": "I universally owe my entire picture to the public."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "sense",
+  "rel": "retained",
+  "source": "Essays",
+  "sentence": "I retained the little sense and discretion that nature has given me, entire for their service and my own: a little emotion, but no dotage."
+ },
+ {
+  "kind": "eval",
+  "a": "man",
+  "b": "philosopher",
+  "rel": "asked",
+  "source": "Essays",
+  "sentence": "A young man asked the philosopher Panetius if it were becoming a wise man to be in love?"
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "passion",
+  "rel": "have",
+  "source": "Essays",
+  "sentence": "I have no other passion to keep me in breath."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "after-game",
+  "rel": "have",
+  "source": "Essays",
+  "sentence": "I have no after-game to play: on which side soever the inundation breaks my banks, I lie open, and am drowned without remedy."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "dominion",
+  "rel": "disrelish",
+  "source": "Essays",
+  "sentence": "I disrelish all dominion, whether active or passive."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "lips",
+  "rel": "bite",
+  "source": "Essays",
+  "sentence": "If I bite my own lips, what ought others to do?"
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "tyranny",
+  "rel": "hate",
+  "source": "Essays",
+  "sentence": "I hate all sorts of tyranny, both in word and deed."
+ },
+ {
+  "kind": "eval",
+  "a": "calavius",
+  "b": "vice",
+  "rel": "corrected",
+  "source": "Essays",
+  "sentence": "Pacuvius Calavius corrected the vice of this proceeding by a notable example."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "treachery",
+  "rel": "fear",
+  "source": "Essays",
+  "sentence": "I, moreover, fear, in these fantasies of mine, the treachery of my memory, lest, by inadvertence, it should make me write the same thing twice."
+ },
+ {
+  "kind": "eval",
+  "a": "effect",
+  "b": "fear",
+  "rel": "does",
+  "source": "Essays",
+  "sentence": "And in these short and violent deaths, the consequence that I foresee administers more consolation to me than the effect does fear."
+ },
+ {
+  "kind": "eval",
+  "a": "friends",
+  "b": "montaigne",
+  "rel": "blame",
+  "source": "Essays",
+  "sentence": "Some of my friends blame me for continuing this travelling humour, being married and old."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "reputation",
+  "rel": "have in",
+  "source": "Essays",
+  "sentence": "For whom should I do it? all the right and interest I have in reputation will then cease."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "need",
+  "rel": "have",
+  "source": "Essays",
+  "sentence": "And I have yet less need of a notary or counsellor than of a physician."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "book",
+  "rel": "write",
+  "source": "Essays",
+  "sentence": "I write my book for few men and for few years."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "custom",
+  "rel": "reprehend",
+  "source": "Essays",
+  "sentence": "Let me reprehend our custom."
+ },
+ {
+  "kind": "eval",
+  "a": "god",
+  "b": "hearts",
+  "rel": "has",
+  "source": "Essays",
+  "sentence": "God has your hearts in His hands, and will furnish you with the means of choice."
+ },
+ {
+  "kind": "eval",
+  "a": "fancy",
+  "b": "opinion",
+  "rel": "sprang in",
+  "source": "Essays",
+  "sentence": "This so vigorous fancy of Carneades sprang, in my opinion, anciently from the impudence of those who made profession of knowledge and their immeasurable self-conceit."
+ },
+ {
+  "kind": "eval",
+  "a": "toleration",
+  "b": "habit",
+  "rel": "beget",
+  "source": "Essays",
+  "sentence": "Long toleration begets habit; habit, consent and imitation."
+ },
+ {
+  "kind": "eval",
+  "a": "offence",
+  "b": "montaigne",
+  "rel": "trouble",
+  "source": "Essays",
+  "sentence": "The offence troubles me, without comparison, more than the loss."
+ },
+ {
+  "kind": "eval",
+  "a": "sorts",
+  "b": "montaigne",
+  "rel": "fell upon",
+  "source": "Essays",
+  "sentence": "A thousand several sorts of mischiefs fell upon me in the neck of one another; I could more cheerfully have borne them all at once."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "gates",
+  "rel": "caused",
+  "source": "Essays",
+  "sentence": "I caused the gates to be opened to him, as I do to every one."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "appearance",
+  "rel": "found with",
+  "source": "Essays",
+  "sentence": "There I found him, with every appearance of alarm, his horse panting and very tired."
+ },
+ {
+  "kind": "eval",
+  "a": "book",
+  "b": "enough",
+  "rel": "has",
+  "source": "Essays",
+  "sentence": "When were we ever agreed amongst ourselves: \"This book has enough; there is now no more to be said about it\"?"
+ },
+ {
+  "kind": "eval",
+  "a": "nature",
+  "b": "words",
+  "rel": "about",
+  "source": "Essays",
+  "sentence": "Our contest is verbal: I ask what nature is, what pleasure, circle, and substitution are? the question is about words, and is answered accordingly."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "sons",
+  "rel": "had",
+  "source": "Essays",
+  "sentence": "If I had any sons, I should willingly wish them my fortune."
+ },
+ {
+  "kind": "eval",
+  "a": "men",
+  "b": "themselves",
+  "rel": "make",
+  "source": "Essays",
+  "sentence": "Men make themselves believe that we formerly had longer lives as well as greater stature."
+ },
+ {
+  "kind": "eval",
+  "a": "montaigne",
+  "b": "portraits",
+  "rel": "have",
+  "source": "Essays",
+  "sentence": "I have portraits of myself taken at five-and-twenty and five-and-thirty years of age."
+ },
+ {
+  "kind": "eval",
+  "a": "father",
+  "b": "sauces",
+  "rel": "hated",
+  "source": "Essays",
+  "sentence": "My father hated all sorts of sauces; I love them all."
+ },
+ {
+  "kind": "eval",
+  "a": "usage",
+  "b": "law",
+  "rel": "give",
+  "source": "Essays",
+  "sentence": "Public usage gives the law in these things."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "shillings",
+  "rel": "give",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I give to the Poore of Ellington forty shillings."
+ },
+ {
+  "kind": "eval",
+  "a": "father",
+  "b": "nunnery",
+  "rel": "heard of",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "When the father heard of this, he hurried back, and managed to get Elizabeth out of the nunnery after she had been there twelve days."
+ },
+ {
+  "kind": "eval",
+  "a": "influence",
+  "b": "pepys",
+  "rel": "secured for",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Turner, who was Chief Clerk in the Navy Office, but in the end Montagu's influence secured it for Pepys."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "service",
+  "rel": "rendered",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Pepys rendered special service at the time of the Fire of London."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "stewards",
+  "rel": "officiated as",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "On this occasion Viscount Newport, Sir Joseph Williamson, and Samuel Pepys officiated as stewards."
+ },
+ {
+  "kind": "eval",
+  "a": "somerset",
+  "b": "son",
+  "rel": "second",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Somerset, second son of Sir Charles Harbord, whom he succeeded in 1682 as Surveyor."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "over-weening",
+  "rel": "imputed",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "This was caused by the carelessness of the pilot, to whom Pepys imputed \"an obstinate over-weening in opposition to the contrary opinions of Sir I."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "edinburgh",
+  "rel": "stayed in",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Pepys stayed in Edinburgh for a short time, and the Duke of York allowed him to be present at two councils."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "procession",
+  "rel": "marched in",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Pepys marched in the procession immediately behind the king's canopy, as one of the sixteen barons of the Cinque Ports."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "answer",
+  "rel": "advised",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Crew's, where I advised with him what to do about my Lord's lodgings and what answer to give to Sir Ant."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "banister",
+  "rel": "drank",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Thence to the Mitre, where I drank a pint of wine, the house being in fitting for Banister to come hither from Paget's."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "wright",
+  "rel": "found",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Jem, where I found my Lady Wright, but Scott was so drunk that he could not be seen."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "churchyard",
+  "rel": "called",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I called at Paul's Churchyard, where I bought Buxtorf's Hebrew Grammar; and read a declaration of the gentlemen of Northampton which came out this afternoon."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "lute",
+  "rel": "fell to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "In the morning I fell to my lute till 9 o'clock."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "bartlet",
+  "rel": "met with",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Here I met with Nick Bartlet, one that had been a servant of my Lord's at sea and at Harper's gave him his morning draft."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "money",
+  "rel": "paid",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Thence to my office, where I paid a little more money to some of the soldiers under Lieut.-Col."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "cards",
+  "rel": "played at",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Here I played at cards till 9 o'clock."
+ },
+ {
+  "kind": "eval",
+  "a": "king",
+  "b": "services",
+  "rel": "solicited",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "He was never employed after the Restoration, although the King solicited his services."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "letters",
+  "rel": "wrote",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Soon as out of my bed I wrote letters into the country to go by carrier to-day."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "morning",
+  "rel": "read",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "This morning I lay long abed, and then to my office, where I read all the morning my Spanish book of Rome."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "lawyers",
+  "rel": "saw",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "After that he went to his office in Chancery Lane, calling at the Rolls, where I saw the lawyers pleading."
+ },
+ {
+  "kind": "eval",
+  "a": "hill",
+  "b": "pepys",
+  "rel": "came to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Hill came to me and I gave him direction what to do at Worcester about the money."
+ },
+ {
+  "kind": "eval",
+  "a": "early",
+  "b": "books",
+  "rel": "set",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Early in the morning I set my books that I brought home yesterday up in order in my study."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "home",
+  "rel": "brought",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Early in the morning I set my books that I brought home yesterday up in order in my study."
+ },
+ {
+  "kind": "eval",
+  "a": "limpertinent",
+  "b": "pepys",
+  "rel": "helped",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "L'Impertinent helped me to a seat."
+ },
+ {
+  "kind": "eval",
+  "a": "speaker",
+  "b": "house",
+  "rel": "came to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "They came to the House and went in one after another, and at last the Speaker came."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "hall",
+  "rel": "back to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "After dinner I back to Westminster Hall with him in his coach."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "will",
+  "rel": "met with",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "To White Hall, where I met with Will."
+ },
+ {
+  "kind": "eval",
+  "a": "pierce",
+  "b": "pepys",
+  "rel": "come to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Pierce comes to me about appointing time and place where and when to meet tomorrow."
+ },
+ {
+  "kind": "eval",
+  "a": "zanchy",
+  "b": "pepys",
+  "rel": "told",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Zanchy told me that there was no such thing now-a-days among them at any time."
+ },
+ {
+  "kind": "eval",
+  "a": "brother",
+  "b": "chapel",
+  "rel": "went to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "My brother went to the College to Chapel."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "echo",
+  "rel": "played",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Here I played on my flageolette, there being an excellent echo."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "man",
+  "rel": "gave",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "After that I gave the man 2s. for his trouble, and went back again."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "sir",
+  "rel": "saw",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "After that to Westminster Hall, where I saw Sir G."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "lord",
+  "rel": "met",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I met my Lord in the Hall, who bid me come to him at noon."
+ },
+ {
+  "kind": "eval",
+  "a": "monk",
+  "b": "mind",
+  "rel": "had",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "He told me he feared there was new design hatching, as if Monk had a mind to get into the saddle."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "wotton",
+  "rel": "called at",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Going home I called at Wotton's and took home a piece of cheese."
+ },
+ {
+  "kind": "eval",
+  "a": "kindness",
+  "b": "pepys",
+  "rel": "make",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "This news and my Lord's great kindness makes me very cheerful within."
+ },
+ {
+  "kind": "eval",
+  "a": "reeve",
+  "b": "pepys",
+  "rel": "brought",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Young Reeve also brought me a little perspective glass which I bought for my Lord, it cost me 8s."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "lord",
+  "rel": "bought for",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Young Reeve also brought me a little perspective glass which I bought for my Lord, it cost me 8s."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "captain",
+  "rel": "walked with",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "After that, it being a fair day, I walked with the Captain upon the deck talking."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "commission",
+  "rel": "got",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "This morning Captain Jowles of the \"Wexford\" came on board, for whom I got commission from my Lord to be commander of the ship."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "commission",
+  "rel": "made",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I made a commission for Captain Wilgness, of the Bear, to-night, which got me 30s."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "letters",
+  "rel": "dispatch",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "This morning I dispatch many letters of my own private business to London."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "afternoon",
+  "rel": "spent",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I spent all the afternoon upon the deck, it being very pleasant weather."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "rattling",
+  "rel": "heard",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Great was the shout of guns from the castles and ships, and our answers, that I never heard yet so great rattling of guns."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "breakfast",
+  "rel": "ate",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I ate a good breakfast by my Lord's orders with him in the great cabin below."
+ },
+ {
+  "kind": "eval",
+  "a": "cook",
+  "b": "pepys",
+  "rel": "waked",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Cook waked me where I lay in the great cabin below, and I did give him his packet and directions for London."
+ },
+ {
+  "kind": "eval",
+  "a": "coxon",
+  "b": "pepys",
+  "rel": "came for",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "While I was at dinner with my Lord, the Coxon of the Vice-Admiral came for me to the Vice-Admiral to dinner."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "copy",
+  "rel": "keep",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Simons, Peter Luellin and Tom Doling, which because it is somewhat merry I keep a copy of."
+ },
+ {
+  "kind": "eval",
+  "a": "letter",
+  "b": "breda",
+  "rel": "dated at",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "The letter dated at Breda, April, 4 1660, in the 12th year of his reign."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "dunne",
+  "rel": "sent by",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "The rest of the morning writing of letters to London which I afterwards sent by Dunne."
+ },
+ {
+  "kind": "eval",
+  "a": "his",
+  "b": "house",
+  "rel": "friend",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Dawes his friends, to the Princess Dowager's house again."
+ },
+ {
+  "kind": "eval",
+  "a": "lord",
+  "b": "to-night",
+  "rel": "lay in",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "My Lord lay in the roundhouse to-night."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "dish",
+  "rel": "got",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "The King supped alone in the coach; after that I got a dish, and we four supped in my cabin, as at noon."
+ },
+ {
+  "kind": "eval",
+  "a": "drum",
+  "b": "pepys",
+  "rel": "brought",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Drum brought me a lobster and a bottle of oil, instead of a bottle of vinegar, whereby I spoiled my dinner."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "dinner",
+  "rel": "spoiled",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Drum brought me a lobster and a bottle of oil, instead of a bottle of vinegar, whereby I spoiled my dinner."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "cabin",
+  "rel": "received in",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I received in the Captain's cabin, for my share, sixty ducats."
+ },
+ {
+  "kind": "eval",
+  "a": "sparling",
+  "b": "pepys",
+  "rel": "brought",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Captain Sparling of the Assistance brought me a pair of silk stockings of a light blue, which I was much pleased with."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "lord",
+  "rel": "showed",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "This afternoon I showed my Lord my accounts, which he passed, and so I think myself to be worth near L100 now."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "order",
+  "rel": "made",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "In the evening I made an order for Captain Sparling of the Assistance to go to Middleburgh, to fetch over some of the King's goods."
+ },
+ {
+  "kind": "eval",
+  "a": "lord",
+  "b": "london",
+  "rel": "resolved to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "They brought an order for my Lord's coming up to London, which my Lord resolved to do tomorrow."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "carpet--",
+  "rel": "blotted",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Crew's, where I blotted a new carpet-- --that was hired, but got it out again with fair water."
+ },
+ {
+  "kind": "eval",
+  "a": "anglesey",
+  "b": "daughter",
+  "rel": "had",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "\"My Lord Anglesey had a daughter cured of the King's evil with three others on Tuesday.\"--MS."
+ },
+ {
+  "kind": "eval",
+  "a": "coventry",
+  "b": "pepys",
+  "rel": "promised",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Coventry about my business, who promised me all the assistance I could expect."
+ },
+ {
+  "kind": "eval",
+  "a": "lord",
+  "b": "to-day",
+  "rel": "dined",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "My Lord dined at his lodgings all alone to-day."
+ },
+ {
+  "kind": "eval",
+  "a": "lord",
+  "b": "king",
+  "rel": "supped with",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Howe by coach to the Speaker's, where my Lord supped with the King, but I could not get in."
+ },
+ {
+  "kind": "eval",
+  "a": "tom",
+  "b": "pepys",
+  "rel": "came to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "My brother Tom came to me with patterns to choose for a suit."
+ },
+ {
+  "kind": "eval",
+  "a": "husband",
+  "b": "sea",
+  "rel": "returned to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Her husband returned to sea."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "warrant",
+  "rel": "got",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Up and to White Hall, where I got my warrant from the Duke to be Clerk of the Acts."
+ },
+ {
+  "kind": "eval",
+  "a": "coventry",
+  "b": "pepys",
+  "rel": "cost",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Coventry, cost me above L19."
+ },
+ {
+  "kind": "eval",
+  "a": "tom",
+  "b": "pepys",
+  "rel": "brought",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "This morning my brother Tom brought me my jackanapes coat with silver buttons."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "use",
+  "rel": "find by",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Howe and I did sing extemporys, and I find by use that we are able to sing a bass and a treble pretty well."
+ },
+ {
+  "kind": "eval",
+  "a": "drake",
+  "b": "city",
+  "rel": "say in",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Drake says, in his \"Eboracum\" (published in 1733), that at that date only one parish church in the city of York possessed an organ."
+ },
+ {
+  "kind": "eval",
+  "a": "fairebrother",
+  "b": "supper",
+  "rel": "came to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Fairebrother came to call us out to my father's to supper."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "wife",
+  "rel": "called",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I called my wife, and set her home."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "coat",
+  "rel": "put",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Up early, the first day that I put on my black camlett coat with silver buttons."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "commission",
+  "rel": "received",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "This day I received my commission to swear people the oath of allegiance and supremacy delivered me by my Lord."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "wife",
+  "rel": "sent",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "This morning I sent my wife to my father's and he is to give me L5 worth of pewter."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "father",
+  "rel": "owe",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "My brother Tom came this morning the first time to see me, and I paid him all that I owe my father to this day."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "tid",
+  "rel": "met with",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "In the evening I met with T."
+ },
+ {
+  "kind": "eval",
+  "a": "painter",
+  "b": "brother",
+  "rel": "had",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Gainsborough the painter had a brother who was a dissenting minister at Henley-on-Thames, and possessed a strong genius for mechanics."
+ },
+ {
+  "kind": "eval",
+  "a": "lord",
+  "b": "dinner",
+  "rel": "went to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "My Lord went to dinner at Kensington with my Lord Camden."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "hall",
+  "rel": "went to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "This morning I went to White Hall with Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "pen",
+  "b": "pepys",
+  "rel": "told",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Pen by water, who in our passage told me how he was bred up under Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "mother",
+  "rel": "found",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "At night by land to my father's, where I found my mother not very well."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "home",
+  "rel": "found at",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I found at home that Captain Burr had sent me 4 dozen bottles of wine today."
+ },
+ {
+  "kind": "eval",
+  "a": "stranger",
+  "b": "sermon",
+  "rel": "preached",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Pen to the parish church, where we are placed in the highest pew of all, where a stranger preached a dry and tedious long sermon."
+ },
+ {
+  "kind": "eval",
+  "a": "god",
+  "b": "pepys",
+  "rel": "fit",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I pray God fit me for a change of my fortune."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "thos",
+  "rel": "called",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "At night I called Thos."
+ },
+ {
+  "kind": "eval",
+  "a": "tom",
+  "b": "house",
+  "rel": "came to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "My brother Tom came to my house with a letter from my brother John, wherein he desires some books: Barthol."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "jack",
+  "rel": "bought",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Here I bought a hanging jack."
+ },
+ {
+  "kind": "eval",
+  "a": "knocking",
+  "b": "pepys",
+  "rel": "passed",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Knocking at the door, there passed me Mons."
+ },
+ {
+  "kind": "eval",
+  "a": "ford",
+  "b": "man",
+  "rel": "talked like",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Ford talked like a man of great reason and experience."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "bishops",
+  "rel": "saw",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Here I saw the Bishops of Winchester, Bangor, Rochester, Bath and Wells, and Salisbury, all in their habits, in King Henry Seventh's chappell."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "meeting",
+  "rel": "returned",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Having done there I returned to Whitehall, where meeting with my brother Ashwell and his cozen Sam."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "cole",
+  "rel": "rose to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Then I rose to Jack Cole, who came to see me."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "house",
+  "rel": "dined at",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Thomas Pepys dined at my house, the last of whom I did almost fox with Margate ale."
+ },
+ {
+  "kind": "eval",
+  "a": "having",
+  "b": "land",
+  "rel": "left",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "The Queen-mother and the Princess Henrietta came into London, the Queen having left this land nineteen years ago."
+ },
+ {
+  "kind": "eval",
+  "a": "chetwind",
+  "b": "pepys",
+  "rel": "told",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Chetwind told me how he did fear that this late business of the Duke of York's would prove fatal to my Lord Chancellor."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "sir",
+  "rel": "went to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "This morning I went to Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "picture",
+  "rel": "saw",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Hence to De Cretz, where I saw my Lord's picture finished, which do please me very well."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "office",
+  "rel": "inquired at",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "In the morning to Whitehall, where I inquired at the Privy Seal Office for a form for a nobleman to make one his Chaplain."
+ },
+ {
+  "kind": "eval",
+  "a": "moore",
+  "b": "pepys",
+  "rel": "told",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Moore told me how the House had this day voted the King to have all the Excise for ever."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "god",
+  "rel": "bless",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "But now I must put an end to any hopes of getting any more, so that I bless God for this."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "lady",
+  "rel": "dined with",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I dined with my Lord and Lady, and we had a venison pasty."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "bottle",
+  "rel": "had",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "They both found me under the barber's hand; but I had a bottle of good sack in the house, and so made them very welcome."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "companion",
+  "rel": "knew",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I never knew so good a companion in all my observation."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "pardons",
+  "rel": "signed",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "So to the Privy Seal, where I signed a deadly number of pardons, which do trouble me to get nothing by."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "duke",
+  "rel": "went to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I went to the Duke."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "dinner",
+  "rel": "went to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "At noon I went to the Sun tavern; on Fish Street hill, to a dinner of Captn."
+ },
+ {
+  "kind": "eval",
+  "a": "stranger",
+  "b": "sermon",
+  "rel": "made",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "A stranger made a dull sermon."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "will",
+  "rel": "went with",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Lay long in bed, and being up, I went with Will to my Lord's, calling in at many churches in my way."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "dinner",
+  "rel": "sat till",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Shepley, in his Venetian cap, taking physique in his chamber, and with him I sat till dinner."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "sir",
+  "rel": "lent",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "This day I lent Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "hat",
+  "rel": "bought",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Holden's, where I bought a hat, cost me 35s."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "dinner",
+  "rel": "had",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Fox's, unbid; where I had a good dinner and special company."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "wight",
+  "rel": "met",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Rawlinson, and here I met my uncle Wight, and he drank with us, and with him to Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "whole",
+  "rel": "got",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "And at night I got the whole company and Sir Wm."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "home",
+  "rel": "dined at",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I dined at home; another good one of his in the afternoon."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "wife",
+  "rel": "left",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I left my wife in bed, being indisposed..."
+ },
+ {
+  "kind": "eval",
+  "a": "creed",
+  "b": "walk",
+  "rel": "took",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Creed took a most pleasant walk for two hours in the park, which is now a very fair place."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "wife",
+  "rel": "found",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Home, where I found my wife all day in her chamber."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "sir",
+  "rel": "found",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Then to the office, where I found Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "stranger",
+  "b": "fool",
+  "rel": "preached like",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "At church, where a stranger preached like a fool."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "lord",
+  "rel": "spoke with",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "In the evening by water to White Hall to my Lord's, and there I spoke with my Lord."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "sir",
+  "rel": "followed",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "About 4 I rose and got to the Abbey, where I followed Sir J."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "doors",
+  "rel": "shut",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "With that thought I shut the doors, and W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "house",
+  "rel": "sent to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I sent to my house by my Lord's order his shipp-- --and triangle virginall."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "sir",
+  "rel": "went with",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "In the morning to church, and my wife not being well, I went with Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "trice",
+  "rel": "met",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Up to Huntingdon this morning to Sir Robert Bernard, with whom I met Jaspar Trice."
+ },
+ {
+  "kind": "eval",
+  "a": "wife",
+  "b": "pepys",
+  "rel": "give",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "This evening my wife gives me all my linen, which I have put up, and intend to keep it now in my own custody."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "tamed",
+  "rel": "saw",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "In the afternoon I went to the Theatre, and there I saw \"The Tamer Tamed\" well done."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "mons",
+  "rel": "took",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "In the evening I took Mons."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "to-day",
+  "rel": "dined",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I dined to-day with my Lord Crew, who is now at Sir H."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "letter",
+  "rel": "counterfeited",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "This day I counterfeited a letter to Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "house",
+  "b": "office",
+  "rel": "added to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Ford's house added to our Office."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "letter",
+  "rel": "sent",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "This night I sent another letter to Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "mary",
+  "rel": "found",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "This night I found Mary, my cozen W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "smoke",
+  "rel": "have",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "\"I have more smoke in my mouth than would blote a hundred herrings.\"--Beaumont and Fletcher, Island Princess."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "letter",
+  "rel": "received",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I received a letter this day from my father, that Sir R."
+ },
+ {
+  "kind": "eval",
+  "a": "work",
+  "b": "lace",
+  "rel": "about",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "And after dinner I went away, and left my wife and ladies together, and all their work was about this lace of hers."
+ },
+ {
+  "kind": "eval",
+  "a": "pickering",
+  "b": "pepys",
+  "rel": "tell",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I walked long in the Hall, but hear nothing of news, but what Ned Pickering tells me, which I am troubled at, that Sir J."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "mons",
+  "rel": "met",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "To Whitehall, and thence to the Rhenish wine-house, where I met Mons."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "despatch",
+  "rel": "sent",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Eschar to be gone, I sent my letters by a porter to the posthouse in Southwark to be sent by despatch to the Downs."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "left",
+  "rel": "supped upon",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Moore and there I supped upon some good things left of yesterday's dinner there, where dined a great deal of company--Sir R."
+ },
+ {
+  "kind": "eval",
+  "a": "habit",
+  "b": "winter",
+  "rel": "got",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Such a habit we have got this winter of lying long abed."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "sir",
+  "rel": "met with",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I rose and went to Westminster Hall, and there walked up and down upon several businesses, and among others I met with Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "house",
+  "rel": "heard",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Thence to the Hall, where I heard the House had ordered all the King's murderers, that remain, to be executed, but Fleetwood and Downes."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "office",
+  "rel": "do in",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Turner was much troubled at what I do in the office, and do give ill words to Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "degrees",
+  "rel": "hope by",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "But I hope by degrees to bring it to it."
+ },
+ {
+  "kind": "eval",
+  "a": "society",
+  "b": "business",
+  "rel": "had",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "With the two Sir Williams to the Trinity-house; and there in their society had the business debated of Sir Nicholas Crisp's sasse at Deptford."
+ },
+ {
+  "kind": "eval",
+  "a": "mules",
+  "b": "pepys",
+  "rel": "came to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Mules came to me from the Governor, for the assistance of some of our men into the castle."
+ },
+ {
+  "kind": "eval",
+  "a": "letters",
+  "b": "pepys",
+  "rel": "tell",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "And letters from my father tell me of L20 hurt done to us at Brampton."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "sir",
+  "rel": "paid",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "This morning I paid Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "hour",
+  "rel": "spent",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Here I spent an hour walking in the garden with Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "son",
+  "b": "letters",
+  "rel": "came with",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Herbert, son to Sir Charles Herbert, that lately came with letters from my Lord Sandwich to the King."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "william",
+  "rel": "took",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I took Sir William to Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "appointment",
+  "rel": "went by",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "So I went by appointment to Anthony Joyce's, where I sat with his wife and Matt."
+ },
+ {
+  "kind": "eval",
+  "a": "scholar",
+  "b": "bed",
+  "rel": "slept in",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Oxon, a Scholar slept in a truckle bed below each Fellow."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "being",
+  "rel": "blood",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Holliard came to me and let me blood, about sixteen ounces, I being exceedingly full of blood and very good."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "seat",
+  "rel": "got",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "This morning I got my seat set up on the leads, which pleases me well."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "well",
+  "rel": "love",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "She is afeard that my Lady Castlemaine will keep still with the King, and I am afeard she will not, for I love her well."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "quarter",
+  "rel": "had",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "So to Wilkinson's, she and I and Sarah to dinner, where I had a good quarter of lamb and a salat."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "mind",
+  "rel": "had",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Creed, of whom I informed myself of all I had a mind to know."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "dish",
+  "rel": "had",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "This day I had the first dish of pease I have had this year."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "effect",
+  "rel": "find",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I have by a late oath obliged myself from wine and plays, of which I find good effect."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "wine",
+  "rel": "drank",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Dined at home, and after dinner to Greatorex's, and with him and another stranger to the Tavern, but I drank no wine."
+ },
+ {
+  "kind": "eval",
+  "a": "barber",
+  "b": "pepys",
+  "rel": "trimmed",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Thence to several places about business, among others to my brother's, and there Tom Beneere the barber trimmed me."
+ },
+ {
+  "kind": "eval",
+  "a": "home",
+  "b": "pepys",
+  "rel": "dined with",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "So home to dinner, my wife not being well, but however dined with me."
+ },
+ {
+  "kind": "eval",
+  "a": "creed",
+  "b": "pepys",
+  "rel": "came to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Creed came to me about business, and he and I walked as far as Lincoln's Inn Fields together."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "doublet",
+  "rel": "put",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "This day I first put on my slasht doublet, which I like very well."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "morning",
+  "rel": "had",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I had my old pain all yesterday and this morning, and so kept my bed all this morning."
+ },
+ {
+  "kind": "eval",
+  "a": "house",
+  "b": "order",
+  "rel": "untiled in",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "My house being this day almost quite untiled in order to its rising higher."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "acquittance",
+  "rel": "took",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I this day took a general acquittance from my Lord to the same day."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "men",
+  "rel": "see as",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "But I see it is impossible for the King to have things done as cheap as other men."
+ },
+ {
+  "kind": "eval",
+  "a": "morning",
+  "b": "pepys",
+  "rel": "make",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "This morning angry a little in the morning, and my house being so much out of order makes me a little pettish."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "business",
+  "rel": "broached",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "This morning among other things I broached the business of our being abused about flags, which I know doth trouble Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "sir",
+  "rel": "know",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "This morning among other things I broached the business of our being abused about flags, which I know doth trouble Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "george",
+  "b": "pepys",
+  "rel": "told",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Sir George told me of a chest of drawers that were given Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "tom",
+  "b": "dinner",
+  "rel": "had",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Lull and his wife, very civil people, very kindly, and without the least discontent, and Tom had a good and neat dinner for us."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "meal",
+  "rel": "made",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Dined at home with my wife upon a good dish of neats' feet and mustard, of which I made a good meal."
+ },
+ {
+  "kind": "eval",
+  "a": "king",
+  "b": "intention",
+  "rel": "had",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "He declared that the king never had any intention of marrying her, and she did not deserve it."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "house",
+  "rel": "found at",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Creede, whom I found at my house, to the Trinity House, to a great dinner there, by invitacion, and much company."
+ },
+ {
+  "kind": "eval",
+  "a": "moore",
+  "b": "home",
+  "rel": "walked",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Moore to his chamber, and after a little talk I walked home to my house and staid at Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "woman",
+  "rel": "love",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I love the woman for her gravity above any in the parish."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "afternoon",
+  "rel": "put to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Phillip the lawyer came to me, but I put him off to the afternoon."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "sir",
+  "rel": "dined at",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "At noon I dined at Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "ladies",
+  "rel": "found",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Minnes at his lodgings, where I found many great ladies, and his lodgings made very fine indeed."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "being",
+  "rel": "walked",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "This being done, I walked towards Guildhall, thither being summoned by the Commissioners for the Lieutenancy; but they sat not this morning."
+ },
+ {
+  "kind": "eval",
+  "a": "letter",
+  "b": "book",
+  "rel": "entered in",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "The letter I have caused to be entered in our public book of letters."
+ },
+ {
+  "kind": "eval",
+  "a": "peace",
+  "b": "head",
+  "rel": "set",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "His talking and ours to make him hold his peace set my head off akeing all the afternoon with great pain."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "sir",
+  "rel": "took",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "And I took Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "fire",
+  "rel": "keep",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Pierce in mine, because the dining-room smokes unless I keep a good charcoal fire, which I was not then provided with."
+ },
+ {
+  "kind": "eval",
+  "a": "speaking",
+  "b": "wife",
+  "rel": "offered",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Lodum speaking with my wife about her kinswoman which is offered my wife to come as a woman to her."
+ },
+ {
+  "kind": "eval",
+  "a": "wife",
+  "b": "sir",
+  "rel": "read",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "At night my wife read Sir H."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "god",
+  "rel": "pray",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "My wife and I well pleased with our choice, only I pray God I may be able to maintain it."
+ },
+ {
+  "kind": "eval",
+  "a": "cole",
+  "b": "pepys",
+  "rel": "sent",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Cole, our timber merchant, sent me five couple of ducks."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "ague",
+  "rel": "found of",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I found him out of order, thinking himself to be in a fit of an ague, but in the afternoon he was very cheery."
+ },
+ {
+  "kind": "eval",
+  "a": "people",
+  "b": "content",
+  "rel": "begin to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "So to Deptford, where I did the same to great content, and see the people begin to value me as they do the rest."
+ },
+ {
+  "kind": "eval",
+  "a": "coach",
+  "b": "pepys",
+  "rel": "cost",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "My coach cost me 7s."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "door",
+  "rel": "meet at",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Thence to see my Lord Sandwich, and who should I meet at the door but Major Holmes."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "grove",
+  "rel": "met",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Thence going out of White Hall, I met Captain Grove, who did give me a letter directed to myself from himself."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "court",
+  "rel": "find at",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I find at Court that there is some bad news from Ireland of an insurrection of the Catholiques there, which puts them into an alarm."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "greenwich",
+  "rel": "walked to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I walked to Greenwich, studying the slide rule for measuring of timber, which is very fine."
+ },
+ {
+  "kind": "eval",
+  "a": "lord",
+  "b": "pepys",
+  "rel": "told",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "My Lord told me of his presenting Sir H."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "differences",
+  "rel": "perceive",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "But I perceive great differences there are at Court; and Sir H."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "oclock",
+  "rel": "slept till",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Being weary last night, I slept till almost seven o'clock, a thing I have not done many a day."
+ },
+ {
+  "kind": "eval",
+  "a": "thomas",
+  "b": "pepys",
+  "rel": "showed",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Sir Thomas showed me his picture and Sir Anthony Vandike's, in crayon in little, done exceedingly well."
+ },
+ {
+  "kind": "eval",
+  "a": "house-carpenter",
+  "b": "pepys",
+  "rel": "sent",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "To my office, and anon one tells me that Rundall, the house-carpenter of Deptford, hath sent me a fine blackbird, which I went to see."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "office",
+  "rel": "went to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "To my office, and anon one tells me that Rundall, the house-carpenter of Deptford, hath sent me a fine blackbird, which I went to see."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "fray",
+  "rel": "had",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "So up and to my office, where we sat, and among other things I had a fray with Sir J."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "notice",
+  "rel": "took",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I took no great notice, but merrily."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "lord",
+  "rel": "find",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I find my Lord, as he is reported, a very ready, quick, and diligent person."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "shilling",
+  "rel": "won",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Afterwards to ninepins, where I won a shilling, Creed and I playing against my Lord and Cooke."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "book",
+  "rel": "bought",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "At the coffee-house in Exchange Alley I bought a little book, \"Counsell to Builders,\" by Sir Balth."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "hour",
+  "rel": "had",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Coventry; where I had an hour's private talk with him."
+ },
+ {
+  "kind": "eval",
+  "a": "wife",
+  "b": "pepys",
+  "rel": "concur with",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Edward Pepys's lady, who my wife concurs with me to be very pretty, as most women we ever saw."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "word",
+  "rel": "spoke",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I only spoke one word to him, my Lord being there."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "house",
+  "rel": "went into",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Before I went into my house this night I called at Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "hall",
+  "rel": "walked",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I walked in the Hall from one man to another."
+ },
+ {
+  "kind": "eval",
+  "a": "mind",
+  "b": "pepys",
+  "rel": "troubled",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "My mind troubled me with the thoughts of the difference between my wife and my father in the country."
+ },
+ {
+  "kind": "eval",
+  "a": "creed",
+  "b": "pepys",
+  "rel": "come to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "At noon Creed comes to me, who tells me how well he has sped with Sir G."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "boy",
+  "rel": "spied",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Coventry, I spied my boy upon Tower Hill playing with the rest of the boys; so I sent W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "sir",
+  "rel": "stepped to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Going in I stepped to Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "husband",
+  "b": "pepys",
+  "rel": "went with",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Her husband went along with me to show me Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "pleasure",
+  "rel": "took",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Here was a pretty young lady, a niece of Barrow's, which I took much pleasure to look on."
+ },
+ {
+  "kind": "eval",
+  "a": "pett",
+  "b": "pepys",
+  "rel": "showed",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Commissioner Pett showed me alone his bodys as a secrett, which I found afterwards by discourse with Sir J."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "queen-mother",
+  "rel": "met",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I met the Queen-Mother walking in the Pell Mell, led by my Lord St."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "wine",
+  "rel": "believe",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I made him almost foxed, the poor man having but a bad head, and not used I believe nowadays to drink much wine."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "direction",
+  "rel": "commit",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I commit the direction of my viall to him."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "business",
+  "rel": "sat to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Coventry and I sat close to our business all the noon in his parler, and there run through much business and answered several people."
+ },
+ {
+  "kind": "eval",
+  "a": "doing",
+  "b": "wife",
+  "rel": "took",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Thence walked home, doing several errands by the way, and at home took my wife to visit Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "will",
+  "rel": "hope",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "But I hope all will over in a little time, and I hope to the best."
+ },
+ {
+  "kind": "eval",
+  "a": "lord",
+  "b": "himself",
+  "rel": "please",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "My Lord pleases himself with it, but methinks it ought to have been better done than by jobing."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "sattin",
+  "rel": "put upon",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Besides I put him upon having some took off upon white sattin, which he ordered presently."
+ },
+ {
+  "kind": "eval",
+  "a": "harper",
+  "b": "pepys",
+  "rel": "sent for",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Harper sent for a maid for me to come to live with my wife."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "sir",
+  "rel": "hear",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I hear this day that Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "being",
+  "b": "friends",
+  "rel": "observed by",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Blackburne, who came to know the reason of his kinsman (my Will) his being observed by his friends of late to droop much."
+ },
+ {
+  "kind": "eval",
+  "a": "cole",
+  "b": "dinner",
+  "rel": "came to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Home, and Creed with me to dinner, and after dinner John Cole, my old friend, came to see and speak with me about a friend."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "musique",
+  "rel": "expected",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I expected musique, but there was none but only trumpets and drums, which displeased me."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "duke",
+  "rel": "heard",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I heard the Duke say that he was going to wear a perriwigg; and they say the King also will."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "service",
+  "rel": "did",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Warren for masts, wherein I am sure I did the King L600 service."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "discourse",
+  "rel": "had",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I had great discourse with him about my disease."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "will",
+  "rel": "sent",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "This morning I sent Will with my great letter of reproof to my Lord Sandwich, who did give it into his owne hand."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "dinner",
+  "rel": "home to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "At noon I home to dinner with my poor wife, with whom now-a-days I enjoy great pleasure in her company and learning of Arithmetique."
+ },
+ {
+  "kind": "eval",
+  "a": "now-a-days",
+  "b": "pleasure",
+  "rel": "enjoy",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "At noon I home to dinner with my poor wife, with whom now-a-days I enjoy great pleasure in her company and learning of Arithmetique."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "griffin",
+  "rel": "sent",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I sent Griffin with him to the Dolphin, where Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "letter",
+  "rel": "had",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I had a letter from W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "meaning",
+  "rel": "had",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Lane, while God knows I had a roguish meaning in it."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "to-day",
+  "rel": "heard",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I heard to-day of a great fray lately between Sir H."
+ },
+ {
+  "kind": "eval",
+  "a": "michell",
+  "b": "daughter",
+  "rel": "had",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Michell herself had a daughter before marriage, which is now near thirty years old, a thing I could not have believed."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "barkeley",
+  "rel": "dined with",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Coventry's chamber, I dined with my Lord Barkeley, Sir G."
+ },
+ {
+  "kind": "eval",
+  "a": "king",
+  "b": "desire",
+  "rel": "delivered",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "This morning I stood by the King arguing with a pretty Quaker woman, that delivered to him a desire of hers in writing."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "doors",
+  "rel": "go of",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Up, being troubled to find my wife so ready to have me go out of doors."
+ },
+ {
+  "kind": "eval",
+  "a": "lord",
+  "b": "matter",
+  "rel": "recommended",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "My Lord recommended the whole matter to me."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "sir",
+  "rel": "sat with",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Up and to the office, and at noon to the Coffeehouse, where I sat with Sir G."
+ },
+ {
+  "kind": "eval",
+  "a": "lord",
+  "b": "pepys",
+  "rel": "owed",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I told her my Lord owed me L700, and shewed her the bond, and how I intended to carry myself to my Lord."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "maes",
+  "rel": "set",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "After her I set Maes to singing, but he did it so like a coxcomb that I was sick of him."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "home",
+  "rel": "carried",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "About 11 at night I carried my aunt home by coach, and then home myself, having set my wife down at home by the way."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "content",
+  "rel": "have",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "In the meantime I have good content in mind to see myself improve every day in knowledge and being known. 12th."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "night",
+  "rel": "sat till",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I sat till night with him, giving him an account of things."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "parliaments",
+  "rel": "love",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I need not tell you how much I love parliaments."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "business",
+  "rel": "demanded",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "But it was pleasant to hear the boys, and particularly one little one, that I demanded the business."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "wife",
+  "rel": "took",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I took my wife by coach home, and to my office, where late with Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "merchants",
+  "rel": "find by",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "But I find by our merchants that something is done, but is yet a secret among them."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "matter",
+  "rel": "labour in",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I perceive I labour in a business will bring me little pleasure; but no matter, I shall do the King some service."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "conference",
+  "rel": "heard",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "In the Painted Chamber I heard a fine conference between some of the two Houses upon the Bill for Conventicles."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "glyster",
+  "rel": "took",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I took a glyster, but it brought away but a little, and my height of pain followed it."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "wife",
+  "rel": "carried",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Falconer and her husband, who is now pretty well again, this being the first time I ever carried my wife thither."
+ },
+ {
+  "kind": "eval",
+  "a": "taylor",
+  "b": "pepys",
+  "rel": "brought",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "But to comfort my heart, Captain Taylor this day brought me L20 he promised me for my assistance to him about his masts."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "lord",
+  "rel": "found",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "James's, to one Lady Poultny's, where I found my Lord, I doubt, at some vain pleasure or other."
+ },
+ {
+  "kind": "eval",
+  "a": "batten",
+  "b": "man",
+  "rel": "discourage",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Batten discourages every man that is honest."
+ },
+ {
+  "kind": "eval",
+  "a": "pen",
+  "b": "head",
+  "rel": "with",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Pen is to-day newly come from Portsmouth with his head full of great reports of his service and the state of the ships there."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "order",
+  "rel": "took",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Povy, wherein I took such order, that it was paid, and I had my L50 brought me, which comforts my heart."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "piece",
+  "rel": "got",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I got a piece of cake."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "hiring",
+  "rel": "sat",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Pen and I sat all the morning hiring of ships to go to Guinny, where we believe the warr with Holland will first break out."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "well",
+  "rel": "think",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I went home and there find Mercer, whose person I like well, and I think will do well, at least I hope so."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "ease",
+  "rel": "resolve to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Coventry, but now I resolve to settle to it again, not that I have idled all my time, but as to my ease something."
+ },
+ {
+  "kind": "eval",
+  "a": "white",
+  "b": "pepys",
+  "rel": "tell",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "White tells me that he believes he never had so poor a low thought in him to trouble himself about it."
+ },
+ {
+  "kind": "eval",
+  "a": "home",
+  "b": "hawley",
+  "rel": "found",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "At noon home to dinner, and there found Creed and Hawley."
+ },
+ {
+  "kind": "eval",
+  "a": "duke",
+  "b": "pepys",
+  "rel": "dined with",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Duke, our Secretary for the Fishery, dined with me."
+ },
+ {
+  "kind": "eval",
+  "a": "lever",
+  "b": "wife",
+  "rel": "sent",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Lever sent my wife a pair of silver candlesticks, very pretty ones."
+ },
+ {
+  "kind": "eval",
+  "a": "wife",
+  "b": "burial",
+  "rel": "went to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "This day my wife went to the burial of a little boy of W."
+ },
+ {
+  "kind": "eval",
+  "a": "money",
+  "b": "freight",
+  "rel": "allowed for",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Povy talking about his business of Tangier, getting him some money allowed him for freight of ships, wherein I hope to get something too."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "sum",
+  "rel": "hope",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I hope a good sum."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "sermon",
+  "rel": "heard",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I heard a good sermon of the old man, touching duty to parents."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "coming",
+  "rel": "hope",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Which I do because I hope his coming into this office will a little cross Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "talke",
+  "b": "pepys",
+  "rel": "kept",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "This and other talke kept me a-bed till almost 10 a'clock."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "man",
+  "rel": "see",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "So that I see that no man is wise at all times."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "thos",
+  "rel": "hear",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Batten's, where I hear that Sir Thos."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "sir",
+  "rel": "dined with",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I dined with Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "night",
+  "b": "wife",
+  "rel": "supped with",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "At night supped with my wife at Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "sir",
+  "rel": "find",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Thence home to the office, where I find Sir J."
+ },
+ {
+  "kind": "eval",
+  "a": "well",
+  "b": "priest",
+  "rel": "married to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Esther, that lived formerly with my Lady Batten, now well married to a priest, come to see my Lady."
+ },
+ {
+  "kind": "eval",
+  "a": "people",
+  "b": "supper",
+  "rel": "ready",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Home, where my people busy to make ready a supper against night for some guests, in lieu of my stonefeast."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "coming",
+  "rel": "excused",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I excused my late coming by having been on the River about office business."
+ },
+ {
+  "kind": "eval",
+  "a": "his",
+  "b": "wife",
+  "rel": "coach with",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Minnes carried me and my wife to White Hall, and thence his coach along with my wife where she would."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "discourse",
+  "rel": "forbear",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Knightly, which made me forbear further discourse."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "piece",
+  "rel": "did",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "This morning I did a good piece of work with Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "carteret",
+  "b": "pepys",
+  "rel": "told",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Carteret told me about fourteen days ago."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "sir",
+  "rel": "called upon",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "In my way I called upon Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "king",
+  "b": "buildings",
+  "rel": "pleased",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "The King mightily pleased with his new buildings there."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "court",
+  "rel": "come to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "When I come to Hampton Court I find Sir T."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "order",
+  "rel": "got",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I got another order signed about the boats, which I think I shall get something by."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "office",
+  "rel": "home to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "At noon I home to dinner alone, and after dinner Bagwell's wife waited at the door, and went with me to my office...."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "expectation",
+  "rel": "lost",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "So I lost my expectation."
+ },
+ {
+  "kind": "eval",
+  "a": "bodham",
+  "b": "pepys",
+  "rel": "tell",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Bodham tells me that one is dead at Woolwich, not far from the Rope-yard."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "god",
+  "rel": "thank",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "But I thank God I was not much disturbed at it."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "news",
+  "rel": "had",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "This day I had the ill news from Dagenhams, that my poor lord of Hinchingbroke his indisposition is turned to the small-pox."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "pett",
+  "rel": "met",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "There I met Commissioner Pett, and my Lord Brunker, and the lady at his house had been thereto-day, to see her."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "stomach",
+  "rel": "had",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Here pretty merry, only I had no stomach, having dined late, to eat."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "house",
+  "rel": "directed to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I directed him to bring them to his master's house."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "transires",
+  "rel": "had",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I had transires to show for all, and the tale was right, and there I spent all the morning seeing this done."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "morning",
+  "rel": "spent",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I had transires to show for all, and the tale was right, and there I spent all the morning seeing this done."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "reason",
+  "rel": "have",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Yet I have no reason to find fault, the Duke and Lord Craven being my very great friends."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "rutherford",
+  "rel": "find",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Thence to my lodging, where I find my Lord Rutherford, of which I was glad."
+ },
+ {
+  "kind": "eval",
+  "a": "letter",
+  "b": "state",
+  "rel": "printed",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "He shewed me also a good letter printed from the Bishopp of Munster to the States of Holland shewing the state of their case."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "discourse",
+  "rel": "left in",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I left him in discourse with Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "morning",
+  "rel": "have",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Batten is, to tell him what I had proposed to Thomas Willson, and the newes also I have this morning from Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "letter",
+  "rel": "met with",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Here I met with a letter from Sir G."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "sir",
+  "rel": "see",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "After dinner to talk of our business, the Act of Parliament, where in short I see Sir R."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "plain",
+  "rel": "find with",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "At his house I find him with a plain little dinner, good wine, and welcome."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "sir",
+  "rel": "thought to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I thought to have had him to Sir J."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "lethulier",
+  "rel": "saw",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Here I saw again my beauty Lethulier."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "tangier",
+  "rel": "paid for",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Gawden's making me a present of L500 more, when I paid him 8000 for Tangier."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "herein",
+  "rel": "had",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I had great satisfaction herein."
+ },
+ {
+  "kind": "eval",
+  "a": "gawden",
+  "b": "pepys",
+  "rel": "met",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Gawden met me by agreement to talke upon the Act."
+ },
+ {
+  "kind": "eval",
+  "a": "hewer",
+  "b": "pepys",
+  "rel": "came to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Hewer came to me with L320 from Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "sandwich",
+  "rel": "found",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I found my Lord Sandwich there, poor man!"
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "deale",
+  "rel": "dined with",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I dined with him with a great deale of company, and much merry discourse."
+ },
+ {
+  "kind": "eval",
+  "a": "dinner",
+  "b": "company",
+  "rel": "ended to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I was called away before dinner ended to go to my company who dined at our lodgings."
+ },
+ {
+  "kind": "eval",
+  "a": "wife",
+  "b": "pepys",
+  "rel": "tell",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "At supper my wife tells me that W."
+ },
+ {
+  "kind": "eval",
+  "a": "lord",
+  "b": "pepys",
+  "rel": "invited",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "My Lord invited me to dinner to-day to dine with Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "sir",
+  "rel": "perceive",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Here I perceive Sir G."
+ },
+ {
+  "kind": "eval",
+  "a": "will",
+  "b": "pepys",
+  "rel": "cost",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Pierce, with my name in her bosom for her Valentine, which will cost me money."
+ },
+ {
+  "kind": "eval",
+  "a": "church-yarde",
+  "b": "books",
+  "rel": "bespoke",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Paul's Church-yarde to my Bookseller's, and there bespoke a few more books to bring all I have lately bought to L10."
+ },
+ {
+  "kind": "eval",
+  "a": "hooke",
+  "b": "trade",
+  "rel": "about",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Hooke's about the trade of felt-making, very pretty."
+ },
+ {
+  "kind": "eval",
+  "a": "mind",
+  "b": "sir",
+  "rel": "incurred",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "My mind troubled through a doubtfulness of my having incurred Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "sir",
+  "rel": "returned with",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I returned with them as far as the Tower in their barge speaking with Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "satisfaction",
+  "rel": "had",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "And I had great satisfaction therein: and the truth is, I find all our matters of credit to be in an ill condition."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "matters",
+  "rel": "find",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "And I had great satisfaction therein: and the truth is, I find all our matters of credit to be in an ill condition."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "sir",
+  "rel": "met",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Much pleased with this visit I to White Hall, where I met Sir G."
+ },
+ {
+  "kind": "eval",
+  "a": "head",
+  "b": "girle",
+  "rel": "combed by",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Then to supper, and after having my head combed by the little girle to bed."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "votes",
+  "rel": "had",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I had three votes to be of the Council, who am but a stranger, nor expected any."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "rails",
+  "rel": "find",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "So my Lord Bruncker being confirmed President I home, where I find to my great content my rails up upon my leads."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "girl",
+  "rel": "love",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I please myself with the thoughts of her neighbourhood, for I love the girl mightily."
+ },
+ {
+  "kind": "eval",
+  "a": "hewer",
+  "b": "dinner",
+  "rel": "went to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Hewer went forth to dinner."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "streete",
+  "rel": "come through",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Bettons, who were looking out of the window as I come through Fenchurch Streete."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "condition",
+  "rel": "trust in",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "But I trust in God I shall never be in that condition again."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "pleasure",
+  "rel": "had",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Coventry; but I had no pleasure in them."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "duke",
+  "rel": "find",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Coventry's chamber, where I find the Duke gone out with the King to-day on hunting."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "sir",
+  "rel": "shewed to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I shewed it to Sir R."
+ },
+ {
+  "kind": "eval",
+  "a": "home",
+  "b": "business",
+  "rel": "did",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "So home to my office, and there did business."
+ },
+ {
+  "kind": "eval",
+  "a": "balty",
+  "b": "pepys",
+  "rel": "tell",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Balty tells me the case of The Henery; and it was, indeed, most extraordinary sad and desperate."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "eye",
+  "rel": "mean",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I mean my right eye only."
+ },
+ {
+  "kind": "eval",
+  "a": "barr",
+  "b": "pepys",
+  "rel": "sent",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Peter Barr sent me a tierce of claret, which is very welcome."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "sir",
+  "rel": "down",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "At noon, without staying to eat my dinner, I down by water to Deptford, and there coming find Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "pieces",
+  "rel": "lent upon",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I lent him 630 in silver upon 30 pieces in gold."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "broth",
+  "rel": "had",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I had some broth made me to drink, which I love, only to fill up room."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "drink",
+  "rel": "love to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I had some broth made me to drink, which I love, only to fill up room."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "sir",
+  "rel": "had",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I had also by his desire Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "bruncker",
+  "b": "pepys",
+  "rel": "tell",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Pretty odd company; though my Lord Bruncker tells me, my Lord Lauderdale is a man of mighty good reason and judgement."
+ },
+ {
+  "kind": "eval",
+  "a": "coventry",
+  "b": "pepys",
+  "rel": "tell",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Coventry tells me that we have the victory."
+ },
+ {
+  "kind": "eval",
+  "a": "colville",
+  "b": "pepys",
+  "rel": "with",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Colville was with me this morning, and to my great joy I could now have all my money in, that I have in the world."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "money",
+  "rel": "have",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Colville was with me this morning, and to my great joy I could now have all my money in, that I have in the world."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "sir",
+  "rel": "visited",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "This afternoon I visited Sir J."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "opportunity",
+  "rel": "had",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I had opportunity of much talk with Sir."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "discourse",
+  "rel": "did in",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I did in a long discourse tell him and the rest (the Duke of Yorke, Lord Chancellor, Lord Treasurer, both the Secretarys, Sir G."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "memento",
+  "rel": "have",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I have another memento from Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "gold",
+  "rel": "locked",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Shelden's, where I locked up my gold, and charged, my wife and W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "sir",
+  "rel": "stopped with",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I stopped with Sir G."
+ },
+ {
+  "kind": "eval",
+  "a": "coventry",
+  "b": "pepys",
+  "rel": "take",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Coventry takes me at it, which did not displease me."
+ },
+ {
+  "kind": "eval",
+  "a": "people",
+  "b": "work",
+  "rel": "busy about",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "We parted, and I home to dinner, and after dinner to the setting things in order, and all my people busy about the same work."
+ },
+ {
+  "kind": "eval",
+  "a": "lighters",
+  "b": "pepys",
+  "rel": "cost",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "In the afternoon I paid for the two lighters that carried my goods to Deptford, and they cost me L8."
+ },
+ {
+  "kind": "eval",
+  "a": "warren",
+  "b": "mind",
+  "rel": "had",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Warren had no mind to it, but that he was surprised at our motion."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "mercer",
+  "rel": "saw",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Here I saw Mercer come into the church, which I had a mind to, but she avoided looking up, which vexed me."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "worke",
+  "rel": "have",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "But I have more worke cut out for me, to prepare a list of the extraordinaries, not to be included within the L4, against Monday."
+ },
+ {
+  "kind": "eval",
+  "a": "business",
+  "b": "pepys",
+  "rel": "suffered",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Cholmly come to visit me, but my business suffered me not to stay with him."
+ },
+ {
+  "kind": "eval",
+  "a": "factions",
+  "b": "pepys",
+  "rel": "come to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "The Committee of the Canary Company of both factions come to me for my Cozen Roger that is of the Committee."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "himself",
+  "rel": "dressed",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "On November 4th Pepys dressed himself in the new vest and coat."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "morning",
+  "rel": "sat",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "After this discourse I to the office, where I sat all the morning, Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "evil",
+  "rel": "think",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Thence by coach home, full of thoughts of the consequence of this alteration in our office, and I think no evil to me."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "company",
+  "rel": "with",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "After some trifling discourse, we to dancing, and very good sport, and mightily pleased I was with the company."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "pastime",
+  "rel": "had",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I had no other pastime."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "bruncker",
+  "rel": "met",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Up by candle-light and on foote to White Hall, where by appointment I met Lord Bruncker at Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "sir",
+  "rel": "walked with",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I walked with Sir G."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "hopes",
+  "rel": "lost",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I would have carried her home, but her father intends to go with her, so I lost my hopes."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "sir",
+  "rel": "spoke with",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Here I spoke with Sir G."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "letter",
+  "rel": "read",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Coventry, and others, and attended there till the Council met, and then was called in, and I read my letter."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "bludworth",
+  "rel": "met",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Going further, I met my late Lord Mayor Bludworth, under whom the City was burned, and went with him by water to White Hall."
+ },
+ {
+  "kind": "eval",
+  "a": "joyce",
+  "b": "trade",
+  "rel": "has",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Joyce now has all the trade, she says, the trade being come to that end of the towne."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "morning",
+  "rel": "home",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Gawden's were examined, but I home most of the morning to even some accounts with Sir H."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "home",
+  "rel": "got",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "This made me afeard; so I got home as fast as I could."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "candles",
+  "rel": "owed for",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Joyce's to pay what I owed for candles there."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "to-day",
+  "rel": "hear",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Prince Rupert, I hear to-day, is very ill; yesterday given over, but better to-day."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "brandy",
+  "rel": "drank",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Here I drank some burnt brandy."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "evening",
+  "rel": "met",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I met this evening at Sir R."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "sir",
+  "rel": "do by",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Gawden comes, and he and I discoursed the business well, and thinks I shall get off well enough; but I do by Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "thought",
+  "rel": "have",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Carcasse about his buying of tickets, and a cunning knave I do believe he is, and will appear, though I have thought otherwise heretofore."
+ },
+ {
+  "kind": "eval",
+  "a": "king",
+  "b": "pleasures",
+  "rel": "mind",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "We ran over many persons and things, and see nothing done like men like to do well while the King minds his pleasures so much."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "whole",
+  "rel": "agree by",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I agree by the whole with him to teach her to take out any lesson of herself for L4."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "company",
+  "rel": "love",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I love his company, and he secures me against ever having the stone again."
+ },
+ {
+  "kind": "eval",
+  "a": "to-day",
+  "b": "house",
+  "rel": "killed at",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I hear to-day that Tom Woodall, the known chyrurgeon, is killed at Somerset House by a Frenchman, but the occasion Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "pett",
+  "b": "lord",
+  "rel": "sided with",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Commissioner Pett, like a fawning rogue, sided with my Lord, but to no purpose; and W."
+ },
+ {
+  "kind": "eval",
+  "a": "coventry",
+  "b": "letter",
+  "rel": "read",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Coventry into the garden, and there read our melancholy letter to the Duke of York, which he likes."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "sir",
+  "rel": "back to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "So mightily pleased with our walk, it being mighty pleasant weather, I back to Sir G."
+ },
+ {
+  "kind": "eval",
+  "a": "home",
+  "b": "sir",
+  "rel": "saw",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "So away, and by coach going home saw Sir G."
+ },
+ {
+  "kind": "eval",
+  "a": "wife",
+  "b": "mind",
+  "rel": "had",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "We had them and a little bit of salmon, which my wife had a mind to, cost 3s."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "park",
+  "rel": "walked over",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I walked over the Park to Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "wife",
+  "b": "cold",
+  "rel": "troubled",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "My wife still troubled with her cold."
+ },
+ {
+  "kind": "eval",
+  "a": "pen",
+  "b": "son",
+  "rel": "told",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Pen told her son that he had applied himself to me."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "office",
+  "rel": "took into",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I took her into the office to discourse with her about getting some employment for him...."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "hall",
+  "rel": "attended to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "To White Hall, and there I attended to speak with Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "person",
+  "rel": "have in",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I have, in my own person, done my full duty, I am sure."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "gibson",
+  "rel": "intend",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "So though I intend Gibson no further than to Huntingdon I direct him to send the packet forward."
+ },
+ {
+  "kind": "eval",
+  "a": "body",
+  "b": "business",
+  "rel": "put",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "But it is pretty odd to see how every body, even at this high time of danger, puts business off of their own hands!"
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "jacobuses",
+  "rel": "sent by",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I sent him by her three Jacobuses in gold, having real pity for him and her."
+ },
+ {
+  "kind": "eval",
+  "a": "pierce",
+  "b": "pepys",
+  "rel": "tell",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Pierce tells me also, this afternoon coming to me, that for certain Sir G."
+ },
+ {
+  "kind": "eval",
+  "a": "bodies",
+  "b": "side",
+  "rel": "lie by",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "We did also see several dead bodies lie by the side of the water."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "yesterday",
+  "rel": "put on",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Up, and within most of the morning, my tailor's boy coming to alter something in my new suit I put on yesterday."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "joy",
+  "rel": "went with",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "The news was so good and sudden that I went with great joy to W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "loss",
+  "rel": "pity butmisc-ex",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I pity her; but more the loss of her at the King's house."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "gilsthrop",
+  "rel": "saw",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Here I saw Gilsthrop, Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "house",
+  "rel": "met in",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Among other things, I met in this house with a printed book of the Life of O."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "playhouse",
+  "rel": "walked to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "So I walked to the King's playhouse, there to meet Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "desire",
+  "b": "command",
+  "rel": "about",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "His desire to speak with me was about the late command for my paying no more pensions for Tangier."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "sir",
+  "rel": "know to",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "This, though I know to be false, or that it must be a mistake in my clerk, I went back to Sir R."
+ },
+ {
+  "kind": "eval",
+  "a": "may",
+  "b": "pepys",
+  "rel": "shewed",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "May shewed me the King's new buildings, in order to their having of some old sails for the closing of the windows this winter."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "moher",
+  "rel": "did",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "But however I do not doubt overcoming her as I did the moher of the monsieur at Deptford."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "sir",
+  "rel": "understand",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Up, and going out of doors, I understand that Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "lady",
+  "b": "pepys",
+  "rel": "lent",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Hewer, and Murford and Bowles (whom my Lady lent me), and my brother John on horseback; and with these four I thought myself pretty safe."
+ },
+ {
+  "kind": "eval",
+  "a": "sandwich",
+  "b": "father",
+  "rel": "promised",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Townsend of the Wardrobe that old Young, the yeoman taylor, whose place my Lord Sandwich promised my father, is dead."
+ },
+ {
+  "kind": "eval",
+  "a": "frazier",
+  "b": "pepys",
+  "rel": "tell",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Frazier tells me that he is in as good condition as a man can be in his case."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "night",
+  "rel": "stayed at",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "After dinner I stayed at home all the afternoon, and Gibson with me; he and I shut up till about ten at night."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "dinner",
+  "rel": "left after",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I left her after dinner (my clerks dining with me) to go with Sir J."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "well",
+  "rel": "perceive",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "But I perceive well what the care of money and treasure in a man's house is to a man that fears to lose it."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "trouble",
+  "rel": "find",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Pen I find in much trouble this evening, having been called to the Committee this afternoon, about the business of prizes."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "rent",
+  "rel": "got",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "This day I got a little rent in my new fine camlett cloak with the latch of Sir G."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "sir",
+  "rel": "overheard",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "This day, at White Hall, I overheard Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "brisband",
+  "rel": "met with",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Here I met with Brisband, and, after hearing the service at the King's chapel, where I heard the Bishop of Norwich, Dr."
+ },
+ {
+  "kind": "eval",
+  "a": "house",
+  "b": "business",
+  "rel": "upon",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Hear that the House is upon the business of Harman, who, they say, takes all on himself."
+ },
+ {
+  "kind": "eval",
+  "a": "home",
+  "b": "business",
+  "rel": "laid",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Turner's, and sat and talked with her, and then home to bed, having laid my business with W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "news",
+  "rel": "hear of",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I hear of the ill news by the great fire at Barbados."
+ },
+ {
+  "kind": "eval",
+  "a": "wife",
+  "b": "picture",
+  "rel": "sat for",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Hewer and Deb.; and there my wife first sat for her picture: but he is a most admirable workman, and good company."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "reason",
+  "rel": "think with",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Coventry against it, and, I think, with reason."
+ },
+ {
+  "kind": "eval",
+  "a": "minnes",
+  "b": "gentleman",
+  "rel": "like",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Minnes giving us, like a gentleman, his coach, hearing we had some business, we to the Park, and so home."
+ },
+ {
+  "kind": "eval",
+  "a": "pelling",
+  "b": "pepys",
+  "rel": "dined with",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "At noon Pelling dined with me."
+ },
+ {
+  "kind": "eval",
+  "a": "shewed",
+  "b": "man",
+  "rel": "like",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Shewed, like a wise man, that righteousness is a surer moral way of being rich, than sin and villainy."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "hall",
+  "rel": "find at",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I find him at his lodgings in the little building in the bowling-green, at White Hall, that was begun to be built by Captain Rolt."
+ },
+ {
+  "kind": "eval",
+  "a": "wren",
+  "b": "pepys",
+  "rel": "read with",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Wren read them over with me."
+ },
+ {
+  "kind": "eval",
+  "a": "book",
+  "b": "will",
+  "rel": "set by",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "So to supper, and after supper to read a ridiculous nonsensical book set out by Will."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "country",
+  "rel": "hear of",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Pickering; a thing I could never have expected, but it is done about seven or ten days since, as I hear out of the country."
+ },
+ {
+  "kind": "eval",
+  "a": "york",
+  "b": "friends",
+  "rel": "made",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Coventry is now, by the Duke of York, made friends with the Duchess; and that he is often there, and waits on her."
+ },
+ {
+  "kind": "eval",
+  "a": "browne",
+  "b": "king",
+  "rel": "asked",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Gawden's name shall go in the patent; at least, at the time when Sir Richard Browne asked the King the names of D."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "osborne",
+  "rel": "saw",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I saw them walk up and down the Court together all this morning; the first time I ever saw Osborne, who is a comely gentleman."
+ },
+ {
+  "kind": "eval",
+  "a": "povy",
+  "b": "pepys",
+  "rel": "tell",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "Povy tells me that Sir W."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "rencontre",
+  "rel": "had",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "But here I had a pleasant rencontre of a lady in mourning, that, by the little light I had, seemed handsome."
+ },
+ {
+  "kind": "eval",
+  "a": "wife",
+  "b": "gown",
+  "rel": "put",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "My wife this day put on first her French gown, called a Sac, which becomes her very well, brought her over by W."
+ },
+ {
+  "kind": "eval",
+  "a": "bellassis",
+  "b": "pepys",
+  "rel": "told",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "He told me the passage at the Council much like what my Lord Bellassis told me."
+ },
+ {
+  "kind": "eval",
+  "a": "court",
+  "b": "town",
+  "rel": "went of",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "The King and Court went out of town to Newmarket this morning betimes, for a week."
+ },
+ {
+  "kind": "eval",
+  "a": "pepys",
+  "b": "office",
+  "rel": "waited with",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "I waited with the Office upon the Duke of York in the morning."
+ },
+ {
+  "kind": "eval",
+  "a": "etext",
+  "b": "pepys",
+  "rel": "editor",
+  "source": "The Diary of Samuel Pepys",
+  "sentence": "ETEXT EDITOR'S BOOKMARKS, DIARY OF SAMUEL PEPYS, 1969 N.S."
+ }
+]

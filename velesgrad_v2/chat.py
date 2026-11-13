@@ -132,11 +132,17 @@ QUESTION_WORDS = ("what", "who", "where", "when", "why", "how", "which", "tell m
 
 
 class MiraChat:
-    def __init__(self, seed: int = 7):
+    def __init__(self, seed: int = 7, knowledge: str | None = None):
+        """knowledge: None (archive only) or "books" (also the Gutenberg-derived
+        human-life facts from data/book_facts.json, see dialogue/book_knowledge)."""
         self.rng = random.Random(seed)
         self.aspace = AtomSpace()
         init_atomspace(self.aspace)
         seed_mira(self.aspace)
+        self.book_facts = 0
+        if knowledge == "books":
+            from .dialogue.book_knowledge import seed_books
+            self.book_facts = seed_books(self.aspace)
 
         # One deduction pass up front: she reasons from what she knows.
         # e.g. relic→stolen_artifact→valuable gives her "the relic is valuable"

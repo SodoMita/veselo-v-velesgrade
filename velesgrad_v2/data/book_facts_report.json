@@ -1,0 +1,49 @@
+{
+ "books": [
+  {
+   "sentences": 1342,
+   "grammatical": 545,
+   "triples": 179,
+   "kept": 22,
+   "title": "Meditations",
+   "author": "Marcus Aurelius",
+   "gutenberg_id": 2680,
+   "parse_rate": 0.406,
+   "seconds": 14.3
+  },
+  {
+   "sentences": 1997,
+   "grammatical": 1295,
+   "triples": 457,
+   "kept": 116,
+   "title": "Walden, and On The Duty Of Civil Disobedience",
+   "author": "Henry David Thoreau",
+   "gutenberg_id": 205,
+   "parse_rate": 0.648,
+   "seconds": 23.8
+  },
+  {
+   "sentences": 2561,
+   "grammatical": 1359,
+   "triples": 603,
+   "kept": 117,
+   "title": "Essays",
+   "author": "Michel de Montaigne",
+   "gutenberg_id": 3600,
+   "parse_rate": 0.531,
+   "seconds": 32.2
+  },
+  {
+   "sentences": 19881,
+   "grammatical": 5867,
+   "triples": 2144,
+   "kept": 463,
+   "title": "The Diary of Samuel Pepys",
+   "author": "Samuel Pepys",
+   "gutenberg_id": 4200,
+   "parse_rate": 0.295,
+   "seconds": 168.7
+  }
+ ],
+ "total_facts": 718
+}

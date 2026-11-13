@@ -37,10 +37,13 @@ MIRA_SEED = 7
 _LOCK = threading.Lock()
 
 
+KNOWLEDGE = None  # None or "books"; set by --knowledge
+
+
 def _mira_reply(user_turns):
     """Replay user turns into a fresh MiraChat; return the final reply."""
     from .chat import MiraChat
-    mira = MiraChat(seed=MIRA_SEED)
+    mira = MiraChat(seed=MIRA_SEED, knowledge=KNOWLEDGE)
     reply = ""
     for text in user_turns:
         reply = mira.respond(text)
@@ -231,9 +234,13 @@ def main():
     ap = argparse.ArgumentParser(description="Mira (OpenCog) as an OpenAI-compatible server")
     ap.add_argument("--host", default="0.0.0.0")
     ap.add_argument("--port", type=int, default=8080)
+    ap.add_argument("--knowledge", choices=["none", "books"], default="none",
+                    help="books: add human-life facts from Gutenberg (data/book_facts.json)")
     args = ap.parse_args()
+    global KNOWLEDGE
+    KNOWLEDGE = None if args.knowledge == "none" else args.knowledge
     srv = ThreadingHTTPServer((args.host, args.port), Handler)
-    print(f"Mira server on http://{args.host}:{args.port}  (model '{MODEL_ID}')", flush=True)
+    print(f"Mira server on http://{args.host}:{args.port}  (model '{MODEL_ID}', knowledge={args.knowledge})", flush=True)
     try:
         srv.serve_forever()
     except KeyboardInterrupt:

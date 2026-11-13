@@ -81,3 +81,31 @@ Requests are serialized because the AtomSpace is process-global.
 from Debian packages into `~/local/lib` and `~/local/share/link-grammar`
 (`apt-get download`, `dpkg-deb -x`, no root). `/health` reports
 `"link_grammar": true` when it is active.
+
+## Human-life knowledge from Gutenberg books (`dialogue/book_knowledge.py`)
+
+Sentences from four public-domain books (Marcus Aurelius *Meditations*, Thoreau
+*Walden*, Montaigne *Essays*, Pepys *Diary*) are parsed with Link Grammar and turned
+into facts about people, households and everyday life. Each fact keeps its source
+book and sentence. Output: `data/book_facts.json` (718 facts), with the grammar
+statistics in `data/book_facts_report.json`.
+
+```bash
+bash velesgrad_v2/data/setup_link_grammar.sh          # Link Grammar, no root needed
+LD_LIBRARY_PATH=$HOME/local/lib VELESGRAD_DEV=1 python -m velesgrad_v2.dialogue.book_knowledge build
+VELESGRAD_DEV=1 python -m velesgrad_v2.serve --knowledge books     # opt-in
+```
+
+Measured grammar (Link Grammar parse rate of the sentences): Meditations 41%,
+Walden 65%, Essays 53%, Pepys 30%. Only grammatical sentences are used for
+extraction. Facts are stored with truth value 0.7/0.5, "read in a book,
+attributed", which is weaker than archive knowledge and stronger than things a
+player tells her. Default Mira (`knowledge=None`) is unchanged.
+
+Limits, honestly: extraction is rule-based on 17th–19th-century prose, so some
+facts are odd ("the demon possessed Thoreau"). Dialogue quality is still rough,
+and this is the next thing to improve.
+
+**Realizer fix shipped with this:** irregular past verbs were pluralized like present
+ones ("lost" → "losts"). `realizer._IRREG_PAST` now keeps them intact, and book
+narrators are rendered as proper names.
