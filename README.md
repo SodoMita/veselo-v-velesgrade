@@ -50,3 +50,34 @@ See `chat_transcript.md` for a recorded 20-message session.
 - `bootstrap.sh` — rebuild the compiled OpenCog stack (cogutil + AtomSpace)
 
 See `velesgrad_v2/README.md` for full documentation.
+
+## Mira as an OpenAI-compatible LLM server (`serve.py`)
+
+The OpenCog chat itself is served over the OpenAI API, so any client that
+speaks it (llama-server style tools, `llm/client.py`, curl) can talk to Mira.
+The "model" is the AtomSpace + PLN + Link Grammar stack; no neural network.
+
+```bash
+source velesgrad_v2/data/lg_env.sh          # Link Grammar libs (see below)
+VELESGRAD_DEV=1 python -m velesgrad_v2.serve --host 0.0.0.0 --port 8080
+```
+
+Endpoints: `GET /` (browser chat), `GET /health`, `GET /v1/models`,
+`POST /v1/chat/completions` (incl. `stream: true`), `POST /v1/completions`.
+
+```bash
+curl localhost:8080/v1/chat/completions -H 'Content-Type: application/json' \
+  -d '{"messages":[{"role":"user","content":"what is the relic?"}]}'
+OPENAI_BASE_URL=http://localhost:8080/v1 OPENAI_API_KEY=x \
+  python -c "from velesgrad_v2.llm.client import OpenAICompatibleClient as C; print(C().generate('who guards the city?'))"
+```
+
+Conversations are stateless (like the OpenAI API): each request replays the
+`user` turns into a fresh Mira, so the same history gives the same answers.
+Requests are serialized because the AtomSpace is process-global.
+
+**Real Link Grammar (no compilation):** the sandbox build extracts
+`liblink-grammar5`, `libhunspell-1.7-0` and `link-grammar-dictionaries-en`
+from Debian packages into `~/local/lib` and `~/local/share/link-grammar`
+(`apt-get download`, `dpkg-deb -x`, no root). `/health` reports
+`"link_grammar": true` when it is active.

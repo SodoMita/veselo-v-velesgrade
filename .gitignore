@@ -6,3 +6,6 @@ save.json
 /data/link-grammar/
 /data/raw/
 *.gguf
+
+# Upstream Link Grammar dictionary, fetched by data/fetch_lg_dict.sh
+velesgrad_v2/data/link-grammar/
