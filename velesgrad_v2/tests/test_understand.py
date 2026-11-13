@@ -46,4 +46,21 @@ def test_statements_and_unknowns_are_not_handled():
     from velesgrad_v2.dialogue.understand import understand
     m = MiraChat("seed", knowledge="books")
     assert understand(m.aspace, "The bell signals danger.") is None
-    assert understand(m.aspace, "who stole the moon?") is None
+    assert "do not know the word" in understand(m.aspace, "who stole the moon?").text
+
+
+@needs_lg
+def test_unknown_word_is_admitted_not_guessed():
+    from velesgrad_v2.chat import MiraChat
+    m = MiraChat("seed", knowledge="books")
+    reply = m.respond("who stole the moonlander?")
+    assert "do not know the word" in reply and "moonlander" in reply
+
+
+@needs_lg
+def test_definition_of_unknown_word_is_learned_then_answered():
+    from velesgrad_v2.chat import MiraChat
+    m = MiraChat("seed", knowledge="books")
+    m.respond("the zorbite is a gem.")
+    reply = m.respond("what is the zorbite?")
+    assert "zorbite" in reply.lower() and "gem" in reply.lower()

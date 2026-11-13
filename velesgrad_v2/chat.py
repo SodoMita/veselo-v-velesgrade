@@ -321,6 +321,19 @@ class MiraChat:
             return getattr(out[1], "name", "")
         return ""
 
+    _DEFN = re.compile(r"^\s*(?:(?:a|an|the)\s+)?([a-z][a-z'-]*)\s+(?:is|are|means)\s+(?:(?:a|an|the|kind of)\s+)?([a-z][a-z' -]*?)\s*[.!]?\s*$", re.I)
+
+    def _is_definition(self, text: str) -> bool:
+        """'X is a Y.' / 'X means Y.' with a word Mira does not know yet, and no question mark."""
+        if text.strip().endswith("?"):
+            return False
+        m = self._DEFN.match(text)
+        if not m:
+            return False
+        from .dialogue.understand import _lexicon, canon
+        lex = _lexicon(self.aspace)
+        return canon(m.group(1).lower(), lex) not in lex and m.group(1).lower() not in lex
+
     def _answer_self(self, low_q: str):
         """Answer questions about Mira from her own knowledge atoms."""
         from .cog.atomspace import types as _t
@@ -488,6 +501,11 @@ class MiraChat:
             topic = self._novel_fact()
             base = self.rng.choice(["Again, well met.", "You return. Good.", "The bells marked your coming."])
             return f"{base} {topic}" if topic else base
+
+        # A definition of an unknown word ("the moonstone is a gem.") is teaching,
+        # whatever the act classifier thinks. It goes to the statement branch below.
+        if act in ("question", "command") and self._is_definition(player_text):
+            act = "statement"
 
         # ── QUESTION / COMMAND (requests for knowledge) ─────────────────
         if act in ("question", "command"):

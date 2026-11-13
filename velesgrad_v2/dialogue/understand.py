@@ -278,6 +278,28 @@ def _lexicon(aspace) -> set:
     return words
 
 
+_FUNCTION = {"the", "a", "an", "some", "of", "to", "in", "on", "at", "is", "was", "does", "do",
+             "did", "be", "it", "that", "this", "kind", "like", "about"}
+
+
+def unknown_terms(frame: Frame, lex) -> list[str]:
+    """Words in the question's subject/object/complement that Mira has no record of.
+
+    A word counts as known if it is in the lexicon or analyzes to a known root.
+    Function words and wh-words are ignored.
+    """
+    terms = []
+    for slot in (frame.subject, frame.obj, frame.adj):
+        if not slot:
+            continue
+        for w in slot.split("_"):
+            w = w.lower()
+            if not w or w in _FUNCTION or _wh_of(w) or w in lex or analyze(w, lex):
+                continue
+            terms.append(w)
+    return terms
+
+
 def understand(aspace, text: str, dictionary=None) -> Answer | None:
     """Answer a question from the AtomSpace, or None if it is not a question we can parse."""
     if not is_available():
@@ -302,6 +324,13 @@ def understand(aspace, text: str, dictionary=None) -> Answer | None:
 
     hits = _candidates(aspace, frame, lex)
     if not hits:
+        # Nothing to say about it. If the question turns on a word Mira does not know,
+        # say so instead of guessing; the reply invites the user to teach it.
+        unknown = unknown_terms(frame, lex)
+        if unknown:
+            w = unknown[0]
+            return Answer(f"I do not know the word '{w}'. Tell me what it means, "
+                          f"and I will remember it.", None, frame)
         return None
     best = hits[0]
     sentence = atom_to_text(best)

@@ -147,3 +147,13 @@ and realizes the matching fact with the existing realizer. Examples:
 
 `MiraChat.respond` tries this first for questions. When no frame matches, the keyword lookup
 answers as before. Statements and commands are never handled here. Tests: `tests/test_understand.py`.
+
+## Words: morphology, unknown words, teaching
+
+- `dialogue/morph.py`: `inflect` makes correct forms of known words; `analyze` recovers a known root
+  from an inflected word, only if the root exists in Mira's lexicon; `derive` and `coin_compound`
+  propose new words, marked `coined`.
+- Questions about an unknown word get an honest reply ("I do not know the word 'X'") instead of a guess.
+- Definitions of unknown words ("the zorbite is a gem.") are taught and then answered. Taught facts
+  last only for the session; nothing is written to disk.
+- Tests: `tests/test_morph.py`, plus teaching and unknown-word tests in `tests/test_understand.py`.
