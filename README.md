@@ -172,3 +172,11 @@ Downloaded to `velesgrad_v2/data/raw_external/` (see NOTICE.md). Accuracy of `mo
 curated irregular table (past, past participle), then UniMorph, then the rules. `analyze` also uses UniMorph
 form → lemma pairs, checked against the lexicon. UniMorph rows with feature labels in the form column
 ("countable", "uncountable", "singular", "plural") are skipped.
+
+### Word parts and symbols
+
+`dialogue/wordparts.py` answers questions about:
+- Symbols and letters ("what is @?", "what is the letter Q?"): names come from Python's `unicodedata` (the Unicode Character Database).
+- Affixes ("what does the prefix un- mean?", "what does -ness mean?"): from a curated table in the module (about 22 prefixes, 25 suffixes), with examples. Not from a dataset.
+- Unknown words built from known parts ("what does unvaluable mean?"): split into a known prefix, root, and suffix, using the lexicon.
+Known words are left to the normal path. Known limit: a word can be in the lexicon through a mis-parsed fact (for example "kindness"), and then the fact is used.

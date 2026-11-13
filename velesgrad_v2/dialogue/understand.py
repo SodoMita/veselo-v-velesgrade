@@ -302,11 +302,16 @@ def unknown_terms(frame: Frame, lex) -> list[str]:
 
 def understand(aspace, text: str, dictionary=None) -> Answer | None:
     """Answer a question from the AtomSpace, or None if it is not a question we can parse."""
-    if not is_available():
-        return None
     if not text.strip().endswith("?"):
         return None         # statements and commands are not handled here
     lex = _lexicon(aspace)
+    # Symbols, letters, affixes, and parts of unknown words need no parse.
+    from .wordparts import answer as _wordpart_answer
+    wp = _wordpart_answer(text, lex)
+    if wp is not None:
+        return Answer(wp, None, None)
+    if not is_available():
+        return None
     frame = build_frame(text, dictionary, lex)
     if frame is None:
         return None
