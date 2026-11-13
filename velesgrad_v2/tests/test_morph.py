@@ -41,3 +41,17 @@ def test_derive_marks_coinages():
     assert derive("keep", "agent", LEX)["exists"] is True   # 'keeper' already known
     c = coin_compound("keeper", "relic")
     assert c["word"] == "relic-keeper" and c["coined"] is True
+
+
+def test_unimorph_supplies_forms_rules_get_wrong():
+    from velesgrad_v2.dialogue.morph import _unimorph
+    if not _unimorph()[0]:
+        import pytest
+        pytest.skip("UniMorph data not present")
+    assert inflect("eat", "past") == "ate"            # rules alone would say 'eated'
+    assert inflect("study", "s") == "studies"         # feature label rows are filtered out
+    assert inflect("lead", "past") == "led"           # curated irregular table beats UniMorph
+
+
+def test_analyze_finds_irregular_root_via_unimorph():
+    assert ("eat", "past") in analyze("ate", {"eat"})

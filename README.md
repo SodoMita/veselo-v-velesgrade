@@ -165,3 +165,10 @@ Downloaded to `velesgrad_v2/data/raw_external/` (see NOTICE.md). Accuracy of `mo
 - Verb `-ing`: 93.4%
 - Verb past: 89.1% on regular lemmas. The gap is mostly irregular verbs missing from the table (for example eat → ate, lead → led). On irregular lemmas already in the table: 97.8%.
 - UD EWT: 12,544 train sentences for parser or frame checks.
+
+### UniMorph as the morphology lookup
+
+`dialogue/morph.py` now reads UniMorph English (`data/raw_external/unimorph_eng/eng`). Order for `inflect`:
+curated irregular table (past, past participle), then UniMorph, then the rules. `analyze` also uses UniMorph
+form → lemma pairs, checked against the lexicon. UniMorph rows with feature labels in the form column
+("countable", "uncountable", "singular", "plural") are skipped.

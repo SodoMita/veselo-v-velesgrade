@@ -14,7 +14,22 @@ Three jobs:
 Forms for inflect(): "s", "past", "pp", "ing", "agent", "state", "ly", "un".
 """
 
+import os
 import re
+from functools import lru_cache
+
+# UniMorph English (CC BY-SA 3.0, see data/raw_external/NOTICE.md). When present, it is the
+# first source for inflect() and analyze(); the rules below are the fallback for words it lacks.
+UNIMORPH_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "raw_external",
+                             "unimorph_eng", "eng")
+
+# form key → UniMorph feature bundles that realise it
+FORM_TAGS = {
+    "s": ("N;PL", "V;PRS;3;SG"),
+    "past": ("V;PST",),
+    "pp": ("V;V.PTCP;PST",),
+    "ing": ("V;V.PTCP;PRS",),
+}
 
 IRREG = {
     # verb: (past, past participle)
@@ -39,6 +54,45 @@ IRREG_PAST = {p: v for v, (p, _) in IRREG.items()}
 IRREG_PP = {pp: v for v, (_, pp) in IRREG.items()}
 IRREG_ALL = {**{p: v for v, (p, _) in IRREG.items()},
              **{pp: v for v, (_, pp) in IRREG.items()}}
+
+_FEATURE_LABELS = {"countable", "uncountable", "singular", "plural"}
+
+
+@lru_cache(maxsize=1)
+def _unimorph():
+    """(lemma → {tag: form}, form → [(lemma, tag)]) from UniMorph English, or empty if absent."""
+    by_lemma, by_form = {}, {}
+    if not os.path.exists(UNIMORPH_PATH):
+        return by_lemma, by_form
+    with open(UNIMORPH_PATH, encoding="utf-8") as fh:
+        for line in fh:
+            parts = line.rstrip("\n").split("\t")
+            if len(parts) != 3:
+                continue
+            lemma, form, tag = parts
+            if not (re.fullmatch(r"[a-z]+", lemma) and re.fullmatch(r"[a-z]+", form)):
+                continue
+            if form in _FEATURE_LABELS:       # UniMorph sometimes puts a feature name in the form column
+                continue
+            by_lemma.setdefault(lemma, {}).setdefault(tag, form)
+            by_form.setdefault(form, []).append((lemma, tag))
+    return by_lemma, by_form
+
+
+def lookup(word: str, form: str) -> str | None:
+    """The form of `word` in UniMorph, if it has one."""
+    tags = FORM_TAGS.get(form)
+    if not tags:
+        return None
+    by_lemma, _ = _unimorph()
+    entry = by_lemma.get(word)
+    if not entry:
+        return None
+    for t in tags:
+        if t in entry:
+            return entry[t]
+    return None
+
 
 _VOWELS = "aeiou"
 _NOUN_IRREG = {"man": "men", "woman": "women", "child": "children", "person": "people",
@@ -140,7 +194,17 @@ def inflect(word: str, form: str) -> str:
     """Return the form of a known word, e.g. inflect('guard', 'past') → 'guarded'."""
     if form not in FORMS:
         raise ValueError(f"unknown form {form!r}")
-    return FORMS[form](word.lower())
+    w = word.lower()
+    # Curated irregular table first (UniMorph lacks some, e.g. 'led' for 'lead'),
+    # then UniMorph, then the rules.
+    if form == "past" and w in IRREG:
+        return IRREG[w][0]
+    if form == "pp" and w in IRREG:
+        return IRREG[w][1]
+    found = lookup(w, form)
+    if found is not None:
+        return found
+    return FORMS[form](w)
 
 
 # ── Analysis: recover a known root ──────────────────────────────────────
@@ -168,6 +232,14 @@ def analyze(word: str, lexicon) -> list[tuple[str, str]]:
     out = []
     if w in lexicon:
         return [(w, "base")]
+    _, by_form = _unimorph()
+    for lemma, tag in by_form.get(w, []):
+        if lemma in lexicon:
+            kind = ("past" if tag == "V;PST" else "pp" if tag == "V;V.PTCP;PST"
+                    else "ing" if tag == "V;V.PTCP;PRS" else "s" if tag in ("N;PL", "V;PRS;3;SG")
+                    else "irregular")
+            if (lemma, kind) not in out:
+                out.append((lemma, kind))
     if w in IRREG_ALL and IRREG_ALL[w] in lexicon:
         out.append((IRREG_ALL[w], "irregular"))
     for suf, rep, kind in _SUFFIX_RULES:
