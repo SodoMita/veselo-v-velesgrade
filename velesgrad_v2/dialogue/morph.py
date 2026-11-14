@@ -79,6 +79,19 @@ def _unimorph():
     return by_lemma, by_form
 
 
+_INFLECTIONAL_TAGS = {"N;PL", "V;PRS;3;SG", "V;PST", "V;V.PTCP;PST", "V;V.PTCP;PRS"}
+
+
+def lemma_of(word: str, lexicon) -> str | None:
+    """The dictionary lemma of an inflected form, if UniMorph says so and the lemma is known.
+    'holds' → 'hold'; 'archive' → None (not an inflected form)."""
+    _, by_form = _unimorph()
+    for lemma, tag in by_form.get(word.lower(), []):
+        if tag in _INFLECTIONAL_TAGS and lemma != word.lower() and lemma in lexicon:
+            return lemma
+    return None
+
+
 def lookup(word: str, form: str) -> str | None:
     """The form of `word` in UniMorph, if it has one."""
     tags = FORM_TAGS.get(form)
@@ -112,6 +125,8 @@ def _drop_e(w: str) -> str:
 def plural(noun: str) -> str:
     if noun in _NOUN_IRREG:
         return _NOUN_IRREG[noun]
+    if noun.endswith("s") and not noun.endswith(("ss", "us", "is")):
+        return noun                      # already plural ('guardians'); 'guardianses' is never right
     if noun.endswith(("s", "x", "z", "ch", "sh")):
         return noun + "es"
     if noun.endswith("y") and len(noun) > 1 and noun[-2] not in _VOWELS:

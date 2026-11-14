@@ -32,12 +32,13 @@ BOUNDARIES (measured, not guessed):
     marks them "heard, unverified"; they are NOT equal in status to the
     seeded archive knowledge (0.85–0.95).
 """
+import re
 
 import re
 
 from .lg_ctypes import is_available, get_dictionary, parse_sentence
 
-_POS_SUFFIX = re.compile(r"\.(n|v|a|r|f|d|p|s|c|i|x)(-[a-z]+)?$")
+_POS_SUFFIX = re.compile(r"\.[a-zA-Z]{1,2}(-[a-zA-Z]+)?$")   # LG tags: .n .v .a .e .x .v-d
 _SKIP_WORDS = {"left-wall", "right-wall", ".", ",", "and", "or", "but",
                "the", "a", "an", "some", "this", "that", "these", "those"}
 
@@ -81,18 +82,19 @@ def _content(w: str) -> bool:
     return bool(w) and w not in _SKIP_WORDS
 
 
-def _map_pronoun(w: str, speaker: str, listener: str) -> str | None:
+def _map_pronoun(w: str, speaker: str, listener: str, antecedent: str | None = None) -> str | None:
     if w in ("i", "me", "my", "myself"):
         return speaker.lower() if speaker else None
     if w in ("you", "your", "yourself"):
         return listener.lower() if listener else None
     if w in ("he", "she", "it", "they", "him", "her", "them"):
-        return None  # unresolved reference — out of scope
+        # resolved only when the caller gives the topic the pronoun refers to
+        return antecedent.lower() if antecedent else None
     return w
 
 
 def extract_triples(sentence: str, speaker: str = "player",
-                    listener: str = "", dictionary=None) -> list[dict]:
+                    listener: str = "", dictionary=None, antecedent: str | None = None) -> list[dict]:
     """Parse one sentence; return knowledge triples.
 
     Each triple: {"kind": "inh"|"eval", "a": subj, "b": obj/pred, "rel": verb/prep}
@@ -132,23 +134,42 @@ def extract_triples(sentence: str, speaker: str = "player",
             except ValueError:
                 return None
 
+    # Noun modifiers: 'light.a' → 'source.n' (A) and 'moon.n' → 'gem.n' (AN).
+    # They are folded into the head's name so 'light source' is kept whole.
+    mods = {}          # head index -> [modifier indices]
+
+    def _phrase(i, depth=0):
+        if depth > 4:
+            return bare[i]
+        parts = [_phrase(m, depth + 1) for m in sorted(mods.get(i, []))]
+        return " ".join(parts + [bare[i]])
+
+    for left, label, right in parsed.links:
+        li = _idx(left)
+        ri = _idx(right)
+        if li is None or ri is None:
+            continue
+        if label in ("A", "AN", "GN"):    # GN: proper-name part ('Saint' in 'Saint Petersburg')
+            # a modifier is never a verb's subject, so no verb test here
+            mods.setdefault(ri, []).append(li)
+
     for left, label, right in parsed.links:
         li = _idx(left)
         ri = _idx(right)
         if li is None or ri is None:
             continue
         if label.startswith("S") and not _is_verb_word(left):
-            subj[ri] = bare[li]
-        elif (label.startswith("MV") or label in ("Pp",) or label.startswith("OF")) \
+            subj[ri] = _phrase(li)
+        elif (label.startswith("MV") or label in ("Pp", "Pv") or label.startswith("OF")) \
                 and _is_verb_word(left):
             prep_of_verb[li] = ri          # verb → preposition
         elif label.startswith("O") and not label.startswith("OF") \
                 and _is_verb_word(left):
-            obj[li] = bare[ri]             # verb → object
-        elif label == "Paf" and _is_verb_word(left):
+            obj[li] = _phrase(ri)          # verb → object
+        elif label in ("Paf", "Pa") and _is_verb_word(left):   # 'is fragile' (Pa), 'is valuable' (Paf)
             adj[li] = bare[ri]             # copula → adjective
-        elif label.startswith("J"):
-            prep_obj[li] = bare[ri]        # preposition → object
+        elif label.startswith("J") or label == "Ou":
+            prep_obj[li] = _phrase(ri)     # preposition → object ('of silver' is Ou in "is made of silver")
 
     triples = []
     # Find finite verbs, including tense-tagged ones ('saw.v-d')
@@ -157,32 +178,68 @@ def extract_triples(sentence: str, speaker: str = "player",
             continue
         v = _lemma(w)
         s_raw = subj.get(vi)
-        s = _map_pronoun(s_raw, speaker, listener) if s_raw else None
+        s = _map_pronoun(s_raw, speaker, listener, antecedent) if s_raw else None
 
         # copula + adjective:  X is <adj>
         if v in _COPULAS and vi in adj and s:
-            a = _map_pronoun(adj[vi], speaker, listener)
+            a = _map_pronoun(adj[vi], speaker, listener, antecedent)
             if a:
                 triples.append({"kind": "inh", "a": s, "b": a, "rel": "is"})
+                # 'the guards are loyal to Veles': keep the preposition and its object too
+                _adj_word = adj[vi]
+                for _k, _w in enumerate(words):
+                    if _bare(_w) == _adj_word and _k + 2 < len(words) and _bare(words[_k + 1]) in (
+                            "to", "of", "with", "for", "from", "by", "in", "at"):
+                        _o = _map_pronoun(_bare(words[_k + 2]).rstrip("."), speaker, listener, antecedent)
+                        if _o:
+                            # placed before the adjective fact, so the echo says 'loyal to Veles'
+                            triples.insert(len(triples) - 1, {"kind": "eval", "a": s, "b": _o,
+                                                              "rel": f"is_{a}_{_bare(words[_k + 1])}"})
+                        break
                 continue
         # copula + noun object:  X is a <noun>
         if v in _COPULAS and vi in obj and s:
-            o = _map_pronoun(obj[vi], speaker, listener)
+            o = _map_pronoun(obj[vi], speaker, listener, antecedent)
+            # 'the city is cold in winter': the parser may call 'cold' a noun; a known adjective is an adjective
+            from .realizer import _COMMON_ADJ as _ADJ
+            _is_adj = bool(o) and _bare(o.split()[-1]) in _ADJ
+            # 'the relic is stolen' (no article before the word) is an adjective, whatever the parser says
+            if bool(o) and not _is_adj and not re.search(
+                    r"\b(a|an|the|my|your|our|his|her|their|its|this|that)\s+" + re.escape(o.split()[-1]) + r"\b",
+                    sentence, re.I):
+                _is_adj = True
             if o:
                 triples.append({"kind": "inh", "a": s, "b": o, "rel": "is"})
+                # 'the relic is a gift from the merchants': keep 'from the merchants' as well
+                _noun = _bare(obj[vi].split()[-1]) if obj[vi] else None
+                if vi in prep_of_verb and prep_obj.get(prep_of_verb[vi]):
+                    _po = _map_pronoun(prep_obj[prep_of_verb[vi]], speaker, listener, antecedent)
+                    if _po:
+                        triples.insert(len(triples) - 1, {"kind": "eval", "a": s, "b": _po,
+                                                          "rel": f"is_{'' if _is_adj else 'a_'}{o}_{_bare(words[prep_of_verb[vi]])}"})
+                for _k, _w in enumerate(words):
+                    if _noun and _bare(_w) == _noun and _k + 2 < len(words) and _bare(words[_k + 1]) in (
+                            "from", "of", "to", "with", "for", "by", "in", "at", "near"):
+                        _po = _map_pronoun(_bare(words[_k + 2]).rstrip("."), speaker, listener, antecedent)
+                        if _po:
+                            triples.insert(len(triples) - 1, {"kind": "eval", "a": s, "b": _po,
+                                                              "rel": f"is_{'' if _is_adj else 'a_'}{o}_{_bare(words[_k + 1])}"})
+                        break
                 continue
         # copula + prepositional:  X is in <place>
         if v in _COPULAS and vi in prep_of_verb and s:
             pi = prep_of_verb[vi]
             o = prep_obj.get(pi)
-            o = _map_pronoun(o, speaker, listener) if o else None
+            o = _map_pronoun(o, speaker, listener, antecedent) if o else None
             if o:
-                triples.append({"kind": "eval", "a": s, "b": o,
-                                "rel": _bare(words[pi])})
+                rel = _bare(words[pi])
+                if rel == "of" and any(_bare(w) in ("made", "make", "making") for w in words):
+                    rel = "made_of"            # "X is made of Y" : material, not possession
+                triples.append({"kind": "eval", "a": s, "b": o, "rel": rel})
                 continue
         # transitive:  X verbs <obj>
         if vi in obj and s:
-            o = _map_pronoun(obj[vi], speaker, listener)
+            o = _map_pronoun(obj[vi], speaker, listener, antecedent)
             if o:
                 triples.append({"kind": "eval", "a": s, "b": o, "rel": v})
                 continue
@@ -190,7 +247,7 @@ def extract_triples(sentence: str, speaker: str = "player",
         if vi in prep_of_verb and s:
             pi = prep_of_verb[vi]
             o = prep_obj.get(pi)
-            o = _map_pronoun(o, speaker, listener) if o else None
+            o = _map_pronoun(o, speaker, listener, antecedent) if o else None
             if o:
                 prep = _bare(words[pi])
                 triples.append({"kind": "eval", "a": s, "b": o,
@@ -208,7 +265,7 @@ def extract_triples(sentence: str, speaker: str = "player",
 
 
 def ingest_text(aspace, sentence: str, speaker: str = "player",
-                listener: str = "", sti_boost: float = 14.0) -> list[str]:
+                listener: str = "", sti_boost: float = 14.0, antecedent: str | None = None) -> list[str]:
     """Extract triples from a sentence and write them into the AtomSpace.
 
     Returns a list of (description, atom) pairs for acknowledgment text.
@@ -220,7 +277,7 @@ def ingest_text(aspace, sentence: str, speaker: str = "player",
         ListLink, TruthValue, set_tv, set_sti, get_sti,
     )
 
-    triples = extract_triples(sentence, speaker=speaker, listener=listener)
+    triples = extract_triples(sentence, speaker=speaker, listener=listener, antecedent=antecedent)
     learned = []
     for t in triples:
         if t["kind"] == "inh":

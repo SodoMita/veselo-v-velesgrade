@@ -177,6 +177,22 @@ form → lemma pairs, checked against the lexicon. UniMorph rows with feature la
 
 `dialogue/wordparts.py` answers questions about:
 - Symbols and letters ("what is @?", "what is the letter Q?"): names come from Python's `unicodedata` (the Unicode Character Database).
-- Affixes ("what does the prefix un- mean?", "what does -ness mean?"): from a curated table in the module (about 22 prefixes, 25 suffixes), with examples. Not from a dataset.
+- Affixes ("what does the prefix un- mean?", "what does -ness mean?"): glosses from Wiktionary (kaikki.org extraction, `data/raw_external/wiktionary_affixes/`), with examples from words Mira knows.
 - Unknown words built from known parts ("what does unvaluable mean?"): split into a known prefix, root, and suffix, using the lexicon.
 Known words are left to the normal path. Known limit: a word can be in the lexicon through a mis-parsed fact (for example "kindness"), and then the fact is used.
+
+Update: affix meanings now come from Wiktionary, not the earlier hand-written table. Glosses skip marginal senses (informal, slang, alternative forms). Examples are words Mira already knows.
+
+### Dictionary meanings (Wiktionary)
+
+`wiktionary_definitions/definitions.tsv.gz` holds one standard gloss for each of 713,997 English words (kaikki.org, CC BY-SA).
+- "what does X mean?", "what is the meaning of X?", and "define X" answer from this dictionary first.
+- Unknown words that split into a dictionary root and a known affix get the root's definition too.
+- Known limit: splitting is eager. "zorbite" splits into "zorb" + "-ite", although "-ite" is also a mineral suffix.
+- Trade-off: meaning questions now answer with the dictionary sense, not Mira's in-world knowledge (the "Veil" answer for "what is the veil?" is unchanged).
+
+Attribution: answers from outside sources say so. Dictionary meanings and affix glosses say "According to Wiktionary"; symbol names say "According to the Unicode database". Answers from Mira's own knowledge (book facts, taught facts) carry no source tag.
+
+### Long-conversation evaluation
+
+`velesgrad_v2/eval/long_chat.py SCRIPT OUT.md` runs a scripted 29-turn conversation (`eval/script_long_01.txt`) and writes a transcript. Transcripts `eval/transcript_long_01..03.md` record the progression. The scores are manual judgments of each reply (good, weak, wrong), not an automated metric. Round 1: about 12 of 29 good. Round 3: about 21 of 29 good. Remaining weak spots: wrong subjects in "who keeps X" and "what is X", circular template sentences ("since all places of learning are important"), and mis-parsed book facts about Pepys and Walden.

@@ -6,6 +6,7 @@ Uses multiple sentence patterns per atom type for diversity.
 """
 
 import random
+import re
 from ..cog.atomspace import (
     AtomSpace, TruthValue, get_sti,
     ConceptNode, PredicateNode,
@@ -80,12 +81,31 @@ _PLURAL_NOUNS = {
     "hounds", "velespriests", "guardians", "merchants", "traders", "travelers",
     "worlds", "streets", "rumors", "manuscripts", "records", "spirits",
     "wards", "gods", "keepers", "secrets", "goods",
+    "men", "women", "children", "people", "feet", "teeth", "mice", "geese",
 }
+
+
+PROPER_NAMES = {"velesgrad", "veles", "pepys", "mira", "petersburg"}
+THE_NAMES = {"veil"}          # named things that take 'the': 'the Veil'
+
+
+
+def _lc(subj: str) -> str:
+    """Lower-case a subject for mid-sentence use, but keep proper names capitalized."""
+    low = subj.lower()
+    return low.capitalize() if low in PROPER_NAMES else low
+
 
 def _is_plural(name: str) -> bool:
     low = name.lower().replace("_", " ")
+    low = re.sub(r"^(the|a|an|my|your|our|their|his|her)\s+", "", low)   # 'the Velespriests' agrees as its head
+    if low in ("you", "players", "player", "we", "they"):   # 'you live', 'you found': plural agreement
+        return low in ("you", "players", "we", "they")
     if low in _PLURAL_NOUNS:
         return True
+    if (low.endswith("s") and not low.endswith(("ss", "us", "is")) and len(low) > 3
+            and low not in PROPER_NAMES and low.split()[-1] not in PROPER_NAMES):
+        return True        # 'guards', 'merchants': plural by its -s (names like 'pepys' are excluded above)
     first_word = low.split()[0] if low else ""
     return first_word in _PLURAL_NOUNS
 
@@ -95,6 +115,10 @@ def _np(name: str, with_article: bool = False) -> str:
     low = name.lower().replace("_", " ")
     if low == "player":
         return "the traveler"     # in-fiction rendering of the player concept
+    if low in THE_NAMES:
+        return "the " + low.capitalize()
+    if low in PROPER_NAMES or (low.split() and low.split()[-1] in PROPER_NAMES) or low.startswith("saint "):
+        return " ".join(w.capitalize() for w in low.split())     # 'saint petersburg' → 'Saint Petersburg'
     if low in _PROPER:
         return name.replace("_", " ").title()
     if low.replace(" ", "_") in _ARTICLES:
@@ -169,6 +193,8 @@ def _pluralize_word(w: str) -> str:
     low = w.lower()
     if low.endswith(("ies", "ses", "xes", "ches", "shes")):
         return w
+    if low.endswith("s") and not low.endswith(("ss", "us", "is")):
+        return w  # already plural ('traders'); pluralizing again gave 'traderses'
     if low.endswith(_ADJ_SUFFIXES):
         return w  # adjectives don't take plurals
     if low.endswith("y") and len(low) > 1 and low[-2] not in "aeiou":
@@ -180,6 +206,8 @@ def _pluralize_word(w: str) -> str:
 
 def _pluralize_pred(pred: str) -> str:
     """'an enforcer' → 'enforcers'; 'a place of learning' → 'places of learning'."""
+    if _looks_adjective(pred):
+        return pred                          # 'rare' stays 'rare': only nouns take a plural
     words = pred.split()
     stripped = pred
     for art in ("the ", "a ", "an ", "some "):
@@ -194,19 +222,29 @@ def _pluralize_pred(pred: str) -> str:
     return f"the {joined}" if pred.startswith("the ") else joined
 
 
-_COMMON_ADJ = {"quiet", "clean", "calm", "dark", "cold", "warm", "old",
-               "young", "small", "large", "empty", "full", "safe"}
+_COMMON_ADJ = {"stolen", "broken", "lost", "hidden", "sealed", "guilty", "safe", "open", "closed", "thin", "quiet", "clean", "calm", "dark", "cold", "warm", "old",
+               "young", "small", "large", "empty", "full", "safe",
+               "kind", "happy", "sad", "tired", "hungry", "rich", "poor", "strange", "new", "great", "good",
+               "bad", "wise", "brave", "sick", "ready", "busy", "rare", "clear", "true", "false", "honest",
+               "greedy", "angry", "proud", "lazy", "fast", "slow", "hot", "wet", "dry", "heavy", "light",
+               "sure", "nice", "beautiful", "important", "wide", "narrow", "deep", "high", "low", "long",
+               "short", "cheap", "expensive", "sweet", "bright", "soft", "hard", "gentle", "cruel",
+               "humble", "silent", "loud", "loyal", "afraid", "alive", "dead", "lost", "hidden"}
 
 
 def _looks_adjective(phrase: str) -> bool:
     words = phrase.split()
     last = words[-1] if words else ""
-    return last.endswith(_ADJ_SUFFIXES) or last in _COMMON_ADJ
+    if last.endswith(_ADJ_SUFFIXES) or last in _COMMON_ADJ:
+        return True
+    from .wordparts import is_adjective_word
+    return is_adjective_word(phrase)
 
 
 def _inh_sentences(a_name, b_name, tv, rng) -> list[str]:
     """InheritanceLink(A, B) → multiple candidate sentences."""
-    subj = _np(a_name)
+    player = a_name.lower().replace("_", " ") == "player"
+    subj = "you" if player else _np(a_name)      # 'I am tired' told by the player → 'you are tired'
     pred = _np(b_name)
     # Bare count-noun predicates need an article: 'quiet place' → 'a quiet place'
     if (_ARTICLES.get(b_name.lower().replace(" ", "_")) is None
@@ -215,9 +253,9 @@ def _inh_sentences(a_name, b_name, tv, rng) -> list[str]:
             and not _looks_adjective(pred)
             and not _is_plural(b_name)):
         pred = ("an " if pred[0:1] in "aeiou" else "a ") + pred
-    plural = _is_plural(a_name)
+    plural = _is_plural(a_name) or player
     copula = "are" if plural else "is"
-    if plural:
+    if plural and not player:
         pred = _pluralize_pred(pred)
 
     # Strip article for "a kind of" pattern
@@ -229,8 +267,8 @@ def _inh_sentences(a_name, b_name, tv, rng) -> list[str]:
 
     patterns = [
         f"{subj} {copula} {pred}.",
-        f"Everyone knows {subj.lower()} {copula} {pred}.",
-        f"They say {subj.lower()} {copula} {pred}.",
+        f"Everyone knows {_lc(subj)} {copula} {pred}.",
+        f"They say {_lc(subj)} {copula} {pred}.",
     ]
     if not _is_plural(a_name) and not _looks_adjective(pred_bare):
         patterns.append(f"{subj} {copula} a kind of {pred_bare}.")
@@ -239,16 +277,16 @@ def _inh_sentences(a_name, b_name, tv, rng) -> list[str]:
         if tv.confidence > 0.8 and tv.mean > 0.8:
             patterns.extend([
                 f"{subj} {copula} certainly {pred}.",
-                f"It is well known that {subj.lower()} {copula} {pred}.",
+                f"It is well known that {_lc(subj)} {copula} {pred}.",
             ])
         elif tv.confidence < 0.3:
             patterns.extend([
                 f"{subj} might be {pred}.",
-                f"Some think {subj.lower()} {copula} {pred}.",
+                f"Some think {_lc(subj)} {copula} {pred}.",
             ])
         elif tv.mean > 0.6:
             patterns.extend([
-                f"Word has it {subj.lower()} {copula} {pred}.",
+                f"Word has it {_lc(subj)} {copula} {pred}.",
                 f"{subj}? {pred.capitalize()}, they say.",
             ])
 
@@ -305,7 +343,9 @@ def _conjugate(verb_phrase: str, subject_name: str) -> str:
         head = table[head]
     elif not plural:
         # singular: 3sg inflection on base forms
-        if head in ("is", "are", "has", "have", "does", "do", "was", "were"):
+        if head in ("can", "will", "shall", "should", "would", "could", "may", "might", "must", "did"):
+            pass  # auxiliaries never take a third-person 's' ('did', 'can')
+        elif head in ("is", "are", "has", "have", "does", "do", "was", "were"):
             head = {"is": "is", "are": "is", "has": "has", "have": "has",
                     "does": "does", "do": "does", "was": "was",
                     "were": "was"}[head]
@@ -330,13 +370,14 @@ def _evl_sentences(pred_name, args, tv, rng) -> list[str]:
     """EvaluationLink(P, List(args)) → multiple candidate sentences."""
     if not args:
         return []
+    is_player = str(args[0]).lower().replace("_", " ") == "player"
+    agree_with = "players" if is_player else args[0]   # 'you' takes the plural form: 'you live', 'you found'
     if pred_name in _PREPS:
-        verb = _conjugate("is " + pred_name, args[0])
+        verb = _conjugate("is " + pred_name, agree_with)
     else:
         verb = _vp(pred_name, rng)
-        verb = _agree_verb(verb, args[0])
-
-    subj = _np(args[0], with_article=True)
+        verb = _agree_verb(verb, agree_with)
+    subj = "you" if is_player else _np(args[0], with_article=True)
     patterns = []
 
     if len(args) == 1:
@@ -349,11 +390,11 @@ def _evl_sentences(pred_name, args, tv, rng) -> list[str]:
         patterns = [
             f"{subj} {verb} {obj}.",
             f"{subj} {verb} {obj}, they say.",
-            f"Word is {subj.lower()} {verb} {obj}.",
+            f"The records hold that {subj} {verb} {obj}.",
         ]
 
     if tv and tv.confidence > 0.8:
-        patterns.append(f"It is known that {subj.lower()} {verb} {obj if len(args) > 1 else ''}.")
+        patterns.append(f"It is known that {_lc(subj)} {verb} {obj if len(args) > 1 else ''}.")
 
     return patterns
 
